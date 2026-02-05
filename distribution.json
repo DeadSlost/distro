@@ -24,52 +24,30 @@
             "autoconnect": false,
             "modules": [
                 {
-                    "id": "net.minecraft:client",
+                    "id": "net.minecraft.client",
                     "name": "Minecraft 1.21.1",
                     "type": "VersionManifest",
                     "artifact": {
                         "size": 0,
                         "MD5": "0",
-                        "path": "versions/1.21.1/1.21.1.jar"
+                        "path": "versions/1.21.1"
                     },
                     "required": true
                 },
                 {
-                    "id": "net.fabricmc:yarn",
-                    "name": "Fabric Yarn",
-                    "type": "Library",
-                    "artifact": {
-                        "size": 0,
-                        "MD5": "0",
-                        "path": "libraries/net/fabricmc/yarn/1.21.1+build.9/yarn-1.21.1+build.9-v2.jar"
-                    },
-                    "required": true
-                },
-                {
-                    "id": "net.fabricmc:intermediary",
-                    "name": "Fabric Intermediary",
-                    "type": "Library",
-                    "artifact": {
-                        "size": 0,
-                        "MD5": "0",
-                        "path": "libraries/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
-                    },
-                    "required": true
-                },
-                {
-                    "id": "net.fabricmc:fabric-loader",
+                    "id": "net.fabricmc.fabric.loader",
                     "name": "Fabric Loader",
                     "type": "File",
                     "artifact": {
                         "size": 1048576,
                         "MD5": "0",
-                        "path": "libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar",
+                        "path": "libraries/fabric-loader-0.15.11.jar",
                         "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
                     },
                     "required": true
                 },
                 {
-                    "id": "net.fabricmc:fabric-api",
+                    "id": "net.fabricmc.fabric.api",
                     "name": "Fabric API",
                     "type": "File",
                     "artifact": {
@@ -99,52 +77,30 @@
             "autoconnect": true,
             "modules": [
                 {
-                    "id": "net.minecraft:client",
+                    "id": "net.minecraft.client",
                     "name": "Minecraft 1.21.1",
                     "type": "VersionManifest",
                     "artifact": {
                         "size": 0,
                         "MD5": "0",
-                        "path": "versions/1.21.1/1.21.1.jar"
+                        "path": "versions/1.21.1"
                     },
                     "required": true
                 },
                 {
-                    "id": "net.fabricmc:yarn",
-                    "name": "Fabric Yarn",
-                    "type": "Library",
-                    "artifact": {
-                        "size": 0,
-                        "MD5": "0",
-                        "path": "libraries/net/fabricmc/yarn/1.21.1+build.9/yarn-1.21.1+build.9-v2.jar"
-                    },
-                    "required": true
-                },
-                {
-                    "id": "net.fabricmc:intermediary",
-                    "name": "Fabric Intermediary",
-                    "type": "Library",
-                    "artifact": {
-                        "size": 0,
-                        "MD5": "0",
-                        "path": "libraries/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
-                    },
-                    "required": true
-                },
-                {
-                    "id": "net.fabricmc:fabric-loader",
+                    "id": "net.fabricmc.fabric.loader",
                     "name": "Fabric Loader",
                     "type": "File",
                     "artifact": {
                         "size": 1048576,
                         "MD5": "0",
-                        "path": "libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar",
+                        "path": "libraries/fabric-loader-0.15.11.jar",
                         "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
                     },
                     "required": true
                 },
                 {
-                    "id": "net.fabricmc:fabric-api",
+                    "id": "net.fabricmc.fabric.api",
                     "name": "Fabric API",
                     "type": "File",
                     "artifact": {
