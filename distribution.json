@@ -1,0 +1,86 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "1234567890123456789",
+        "smallImageText": "Mi Launcher",
+        "smallImageKey": "seal-circle"
+    },
+    "rss": null,
+    "servers": [
+        {
+            "id": "Server_1",
+            "name": "Servidor Principal",
+            "description": "Minecraft 1.21.1 con Fabric Preinstalado",
+            "icon": "https://via.placeholder.com/256x256?text=Server",
+            "version": "0.0.1",
+            "address": "localhost:25565",
+            "minecraftVersion": "1.21.1",
+            "discord": {
+                "shortId": "MainServer",
+                "largeImageText": "Servidor Principal",
+                "largeImageKey": "seal-circle"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.minecraft:client",
+                    "name": "Minecraft 1.21.1",
+                    "type": "VersionManifest",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": "0",
+                        "path": "versions/1.21.1/1.21.1.jar"
+                    },
+                    "required": true
+                },
+                {
+                    "id": "net.fabricmc:yarn",
+                    "name": "Fabric Yarn",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": "0",
+                        "path": "libraries/net/fabricmc/yarn/1.21.1+build.9/yarn-1.21.1+build.9-v2.jar"
+                    },
+                    "required": true
+                },
+                {
+                    "id": "net.fabricmc:intermediary",
+                    "name": "Fabric Intermediary",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": "0",
+                        "path": "libraries/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+                    },
+                    "required": true
+                },
+                {
+                    "id": "net.fabricmc:fabric-loader",
+                    "name": "Fabric Loader",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1048576,
+                        "MD5": "0",
+                        "path": "libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
+                    },
+                    "required": true
+                },
+                {
+                    "id": "net.fabricmc:fabric-api",
+                    "name": "Fabric API",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2097152,
+                        "MD5": "0",
+                        "path": "mods/fabric-api-0.92.2+1.21.1.jar",
+                        "url": "https://cdn.modrinth.com/data/P7dR8m8f/versions/0.92.2%2B1.21.1/fabric-api-0.92.2+1.21.1.jar"
+                    },
+                    "required": true
+                }
+            ]
+        }
+    ]
+}
