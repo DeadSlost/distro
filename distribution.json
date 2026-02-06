@@ -10,7 +10,7 @@
         {
             "id": "Server_Test",
             "name": "Servidor de Prueba",
-            "description": "Servidor de prueba - Minecraft 1.20.1",
+            "description": "Servidor de prueba - Minecraft 1.20.1 Vanilla",
             "icon": "https://via.placeholder.com/256x256?text=Test",
             "version": "0.0.1",
             "address": "test.localhost:25565",
