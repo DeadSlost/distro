@@ -23,8 +23,8 @@
             "mainServer": false,
             "autoconnect": false,
             "javaOptions": {
-                "supported": ["17"],
-                "suggestedMajor": "17"
+                "supported": ["21"],
+                "suggestedMajor": "21"
             },
             "modules": [
                 {
@@ -56,8 +56,8 @@
             "mainServer": true,
             "autoconnect": false,
             "javaOptions": {
-                "supported": ["17"],
-                "suggestedMajor": "17"
+                "supported": ["21"],
+                "suggestedMajor": "21"
             },
             "modules": [
                 {
