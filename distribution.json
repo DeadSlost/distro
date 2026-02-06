@@ -10,11 +10,11 @@
         {
             "id": "Server_Test",
             "name": "Servidor de Prueba",
-            "description": "Servidor de prueba - Minecraft 1.20.1 Vanilla",
+            "description": "Servidor de prueba - Minecraft 1.21.1 Vanilla",
             "icon": "https://via.placeholder.com/256x256?text=Test",
             "version": "0.0.1",
             "address": "test.localhost:25565",
-            "minecraftVersion": "1.20.1",
+            "minecraftVersion": "1.21.1",
             "discord": {
                 "shortId": "TestServer",
                 "largeImageText": "Servidor Prueba",
@@ -28,13 +28,13 @@
             },
             "modules": [
                 {
-                    "id": "net.minecraft:client:1.20.1",
-                    "name": "Minecraft 1.20.1",
+                    "id": "net.minecraft:client:1.21.1",
+                    "name": "Minecraft 1.21.1",
                     "type": "VersionManifest",
                     "artifact": {
                         "size": 0,
                         "MD5": "0",
-                        "path": "versions/1.20.1"
+                        "path": "versions/1.21.1"
                     },
                     "required": true
                 }
@@ -47,7 +47,7 @@
             "icon": "https://via.placeholder.com/256x256?text=Live",
             "version": "0.0.1",
             "address": "play.example.com:25565",
-            "minecraftVersion": "1.20.1",
+            "minecraftVersion": "1.21.1",
             "discord": {
                 "shortId": "LiveServer",
                 "largeImageText": "Servidor Live",
@@ -61,13 +61,13 @@
             },
             "modules": [
                 {
-                    "id": "net.minecraft:client:1.20.1",
-                    "name": "Minecraft 1.20.1",
+                    "id": "net.minecraft:client:1.21.1",
+                    "name": "Minecraft 1.21.1",
                     "type": "VersionManifest",
                     "artifact": {
                         "size": 0,
                         "MD5": "0",
-                        "path": "versions/1.20.1"
+                        "path": "versions/1.21.1"
                     },
                     "required": true
                 }
