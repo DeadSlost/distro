@@ -8,7 +8,7 @@
     "java": {
         "oracle": "https://www.oracle.com/java/technologies/javase-jre8-downloads.html"
     },
-    "rss": null,
+    "rss": "https://raw.githubusercontent.com/DeadSlost/distro/main/news.xml",
     "servers": [
         {
             "id": "fabric-1.21.1",
