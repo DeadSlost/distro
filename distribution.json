@@ -2,47 +2,56 @@
     "version": "1.0.0",
     "discord": {
         "clientId": "385581240906022916",
-        "smallImageText": "Minecraft Launcher",
-        "smallImageKey": "minecraft"
+        "smallImageText": "Fabric Launcher",
+        "smallImageKey": "fabric"
     },
     "java": {
-        "oracle": "https://www.oracle.com/java/technologies/downloads/"
+        "oracle": "https://www.oracle.com/java/technologies/javase-jre8-downloads.html"
     },
     "rss": null,
     "servers": [
         {
-            "id": "minecraft-1.21.1",
-            "name": "Minecraft 1.21.1",
-            "description": "Minecraft 1.21.1 - Now with automatic Fabric installation!",
+            "id": "fabric-1.21.1",
+            "name": "Fabric 1.21.1",
+            "description": "Minecraft 1.21.1 with Fabric Mod Loader for local gameplay",
             "icon": null,
             "version": "1.21.1",
-            "address": null,
+            "address": "localhost",
             "minecraftVersion": "1.21.1",
             "discord": {
-                "shortId": "MC",
-                "largeImageText": "Playing Minecraft 1.21.1",
-                "largeImageKey": "minecraft-server"
+                "shortId": "Fabric",
+                "largeImageText": "Playing Minecraft with Fabric",
+                "largeImageKey": "fabric-server"
             },
             "mainServer": true,
             "autoconnect": false,
             "javaOptions": {
                 "supported": [
                     {
-                        "id": "21",
-                        "version": "21.0.0"
+                        "id": "17",
+                        "version": "17.0.0"
                     },
                     {
-                        "id": "17",
-                        "version": "17.0.0"  
+                        "id": "21",
+                        "version": "21.0.0"
                     }
                 ],
-                "suggestedMajor": 21,
-                "ram": {
-                    "recommended": 4,
-                    "maximum": 8
-                }
+                "suggestedMajor": 21
             },
-            "modules": []
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.16.9:1.21.1",
+                    "name": "Fabric Loader",
+                    "type": "FabricMC",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": -1,
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
+                    }
+                }
+            ]
         }
     ]
 }
