@@ -24,7 +24,7 @@
                 "largeImageKey": "mythicmon"
             },
             "mainServer": true,
-            "autoconnect": false,
+            "autoconnect": true,
             "javaOptions": {
                 "supported": ">=17.x",
                 "suggestedMajor": 21
