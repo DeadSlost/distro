@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+    <channel>
+        <title>Mythicmon - Noticias</title>
+        <link>https://github.com/DeadSlost/distro</link>
+        <description>Noticias y actualizaciones del servidor Mythicmon</description>
+        <item>
+            <title>🎉 ¡Bienvenidos a Mythicmon!</title>
+            <link>https://github.com/DeadSlost/distro</link>
+            <pubDate>Fri, 07 Feb 2026 12:00:00 GMT</pubDate>
+            <dc:creator>DeadSlost</dc:creator>
+            <content:encoded><![CDATA[
+                <p>¡Bienvenidos al servidor de <strong>Mythicmon</strong>!</p>
+                <p>Estamos emocionados de lanzar nuestro servidor de Cobblemon para Minecraft 1.21.1. Aquí podrás:</p>
+                <ul>
+                    <li>🔥 Capturar y entrenar Pokémon con <strong>Cobblemon 1.7.3</strong></li>
+                    <li>💰 Comerciar con otros jugadores usando <strong>GTS</strong></li>
+                    <li>🔄 Intercambiar Pokémon al azar con <strong>Wonder Trade</strong></li>
+                    <li>🥚 Criar Pokémon en la <strong>Guardería (Daycare)</strong></li>
+                    <li>🏆 Enfrentar jefes Pokémon con <strong>Cobblemon Boss</strong></li>
+                    <li>🎯 Completar misiones de caza con <strong>Cobblehunts</strong></li>
+                </ul>
+                <p>¡Descarga el launcher, inicia sesión y comienza tu aventura!</p>
+            ]]></content:encoded>
+            <slash:comments>0</slash:comments>
+        </item>
+        <item>
+            <title>📋 Lista de Mods Incluidos</title>
+            <link>https://github.com/DeadSlost/distro</link>
+            <pubDate>Fri, 07 Feb 2026 11:00:00 GMT</pubDate>
+            <dc:creator>DeadSlost</dc:creator>
+            <content:encoded><![CDATA[
+                <p>El launcher descarga automáticamente todos los mods necesarios:</p>
+                <ul>
+                    <li><strong>Cobblemon 1.7.3</strong> - El mod principal de Pokémon</li>
+                    <li><strong>Fabric API</strong> - Base para mods de Fabric</li>
+                    <li><strong>Sodium</strong> - Optimización de rendimiento gráfico</li>
+                    <li><strong>Lithium</strong> - Optimización del servidor</li>
+                    <li><strong>FerriteCore</strong> - Reducción de uso de memoria</li>
+                    <li><strong>ScalableLux</strong> - Iluminación optimizada</li>
+                    <li><strong>Mod Menu</strong> - Menú de configuración de mods</li>
+                    <li><strong>Cloth Config</strong> - API de configuración</li>
+                    <li><strong>GTS</strong> - Sistema de comercio global</li>
+                    <li><strong>Wonder Trade</strong> - Intercambios aleatorios</li>
+                    <li><strong>Daycare Plus</strong> - Guardería de Pokémon</li>
+                    <li><strong>Cobblemon Boss</strong> - Jefes Pokémon</li>
+                    <li><strong>Cobblehunts</strong> - Misiones de caza</li>
+                    <li><strong>Spawn Notification</strong> - Notificaciones de apariciones</li>
+                    <li><strong>RecallBeams</strong> - Efectos de Pokéballs</li>
+                    <li><strong>Ultra Economy</strong> - Sistema económico</li>
+                </ul>
+                <p>¡No necesitas instalar nada manualmente!</p>
+            ]]></content:encoded>
+            <slash:comments>0</slash:comments>
+        </item>
+    </channel>
+</rss>
