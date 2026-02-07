@@ -27,7 +27,7 @@
             "autoconnect": true,
             "javaOptions": {
                 "supported": ">=17.x",
-                "suggestedMajor": 21
+                "suggestedMajor": 25
             },
             "modules": [
                 {
