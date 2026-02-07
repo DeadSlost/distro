@@ -26,16 +26,7 @@
             "mainServer": true,
             "autoconnect": false,
             "javaOptions": {
-                "supported": [
-                    {
-                        "id": "17",
-                        "version": "17.0.0"
-                    },
-                    {
-                        "id": "21",
-                        "version": "21.0.0"
-                    }
-                ],
+                "supported": ">=17.x",
                 "suggestedMajor": 21
             },
             "modules": [
