@@ -44,12 +44,32 @@
             },
             "modules": [
                 {
-                    "id": "net.minecraft:client:1.21.1",
-                    "name": "Minecraft",
-                    "type": "Version",
+                    "id": "net.fabricmc:fabric-loader:0.18.2",
+                    "name": "Fabric Loader",
+                    "type": "FabricMC",
                     "required": {
                         "value": true
-                    }
+                    },
+                    "artifact": {
+                        "size": 1320000,
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.2/fabric-loader-0.18.2.jar",
+                        "MD5": "AUTO_GENERATED"
+                    },
+                    "subModules": [
+                        {
+                            "id": "net.fabricmc:intermediary:1.21.1",
+                            "name": "Intermediary Mappings",
+                            "type": "Library",
+                            "required": {
+                                "value": true
+                            },
+                            "artifact": {
+                                "size": 950000,
+                                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar",
+                                "MD5": "AUTO_GENERATED"
+                            }
+                        }
+                    ]
                 }
             ]
         }
