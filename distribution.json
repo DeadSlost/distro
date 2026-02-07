@@ -1,9 +1,9 @@
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "385581240906022916",
-        "smallImageText": "Fabric Launcher",
-        "smallImageKey": "fabric"
+        "clientId": "1469694256359673918",
+        "smallImageText": "Mythicmon Launcher",
+        "smallImageKey": "mythicmon"
     },
     "java": {
         "oracle": "https://www.oracle.com/java/technologies/javase-jre8-downloads.html"
@@ -19,9 +19,9 @@
             "address": "169.155.126.40:9030",
             "minecraftVersion": "1.21.1",
             "discord": {
-                "shortId": "Fabric",
-                "largeImageText": "Playing Minecraft with Fabric",
-                "largeImageKey": "fabric-server"
+                "shortId": "Mythicmon",
+                "largeImageText": "Jugando Cobblemon en Mythicmon",
+                "largeImageKey": "mythicmon"
             },
             "mainServer": true,
             "autoconnect": false,
