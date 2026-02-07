@@ -1,12 +1,5 @@
 [
   {
-    "id": "discord-test-mlcqhx5r",
-    "type": "warning",
-    "title": "TEST",
-    "message": "TEST",
-    "date": "2026-02-07"
-  },
-  {
     "id": "welcome-1",
     "type": "info",
     "title": "Bienvenido a Mythicmon!",
