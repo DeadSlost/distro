@@ -1,0 +1,37 @@
+[
+    {
+        "id": "welcome-1",
+        "type": "info",
+        "title": "Bienvenido a Mythicmon!",
+        "message": "Gracias por descargar el launcher. Explora la Wiki para aprender sobre Cobblemon y unete a nuestro Discord.",
+        "date": "2025-02-07"
+    },
+    {
+        "id": "update-1",
+        "type": "update",
+        "title": "Launcher v1.0.3",
+        "message": "Nuevo slideshow de fondos, wiki completa con info de Cobblemon, lista de jugadores online, Discord RPC y mas.",
+        "date": "2025-02-06"
+    },
+    {
+        "id": "event-1",
+        "type": "event",
+        "title": "Cobblemon 1.7 - Set Course",
+        "message": "Nueva actualizacion! Ahora puedes montar Pokemon, cocinar en el Campfire Pot, hacer Poke Snacks y personalizar con cosmeticos.",
+        "date": "2025-02-01"
+    },
+    {
+        "id": "tip-1",
+        "type": "tip",
+        "title": "Consejo: Quick Ball",
+        "message": "La Quick Ball tiene 5x de captura en el primer turno. Ideal para Pokemon que quieras atrapar rapido!",
+        "date": "2025-01-28"
+    },
+    {
+        "id": "maintenance-1",
+        "type": "maintenance",
+        "title": "Mantenimiento Programado",
+        "message": "El servidor puede tener reinicios breves para aplicar actualizaciones. Guarda tu progreso frecuentemente.",
+        "date": "2025-01-25"
+    }
+]
