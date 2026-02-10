@@ -1,33 +1,33 @@
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "1469694256359673918",
+        "clientId": "385581240906022916",
         "smallImageText": "Mythicmon Launcher",
         "smallImageKey": "mythicmon"
     },
     "java": {
-        "oracle": "https://www.oracle.com/java/technologies/javase-jre8-downloads.html"
+        "oracle": "https://www.oracle.com/java/technologies/downloads/#java21"
     },
-    "rss": "https://raw.githubusercontent.com/DeadSlost/distro/main/news.xml",
+    "rss": null,
     "servers": [
         {
             "id": "fabric-1.21.1",
-            "name": "Fabric 1.21.1",
+            "name": "Mythicmon 1.21.1",
             "description": "Minecraft 1.21.1 with Fabric Mod Loader for local gameplay",
             "icon": null,
             "version": "1.21.1",
-            "address": "169.155.126.40:9030",
+            "address": "localhost",
             "minecraftVersion": "1.21.1",
             "discord": {
-                "shortId": "Mythicmon",
-                "largeImageText": "Jugando Cobblemon en Mythicmon",
-                "largeImageKey": "mythicmon"
+                "shortId": "Fabric",
+                "largeImageText": "Playing Minecraft with Fabric",
+                "largeImageKey": "fabric-server"
             },
             "mainServer": true,
-            "autoconnect": true,
+            "autoconnect": false,
             "javaOptions": {
-                "supported": ">=17.x",
-                "suggestedMajor": 25
+                "supported": "21",
+                "suggestedMajor": 21
             },
             "modules": [
                 {
