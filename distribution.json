@@ -8,7 +8,7 @@
     "java": {
         "oracle": "https://www.oracle.com/java/technologies/downloads/#java21"
     },
-    "rss": null,
+    "rss": "https://raw.githubusercontent.com/DeadSlost/distro/refs/heads/main/news.xml",
     "servers": [
         {
             "id": "fabric-1.21.1",
