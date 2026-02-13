@@ -1349,6 +1349,104 @@
                         "path": "resourcepacks/Syn_Eevees_0.1.0.zip",
                         "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Syn_Eevees_0.1.0.zip"
                     }
+                },
+                {
+                    "id": "shaderpack-AmethystShaders_2.4:shaders-v1",
+                    "name": "AmethystShaders 2.4",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 472309,
+                        "MD5": "1446323a6789099cb0cdc9dc0357436d",
+                        "path": "shaderpacks/AmethystShaders_2.4.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/AmethystShaders_2.4.zip"
+                    }
+                },
+                {
+                    "id": "shaderpack-BSL_v10.1.1:shaders-v1",
+                    "name": "BSL v10.1.1",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1125052,
+                        "MD5": "67b0a2d855e91f3578af7a4336e537f0",
+                        "path": "shaderpacks/BSL_v10.1.1.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/BSL_v10.1.1.zip"
+                    }
+                },
+                {
+                    "id": "shaderpack-ComplementaryReimagined_r5.7.1:shaders-v1",
+                    "name": "ComplementaryReimagined r5.7.1",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 522970,
+                        "MD5": "bc5f557bb6844d27e7b7891170544ea9",
+                        "path": "shaderpacks/ComplementaryReimagined_r5.7.1.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/ComplementaryReimagined_r5.7.1.zip"
+                    }
+                },
+                {
+                    "id": "shaderpack-ComplementaryUnbound_r5.7.1:shaders-v1",
+                    "name": "ComplementaryUnbound r5.7.1",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 522973,
+                        "MD5": "b535d194c7115b360860e226c65ae3f2",
+                        "path": "shaderpacks/ComplementaryUnbound_r5.7.1.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/ComplementaryUnbound_r5.7.1.zip"
+                    }
+                },
+                {
+                    "id": "shaderpack-I.Like.Vanilla.v1.3.0:shaders-v1",
+                    "name": "I.Like.Vanilla.v1.3.0",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 288445,
+                        "MD5": "e95d5bc565bb55b9fd9fee5fd1f40f92",
+                        "path": "shaderpacks/I.Like.Vanilla.v1.3.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/I.Like.Vanilla.v1.3.0.zip"
+                    }
+                },
+                {
+                    "id": "shaderpack-MakeUp-UltraFast-9.4b:shaders-v1",
+                    "name": "MakeUp-UltraFast-9.4b",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 402605,
+                        "MD5": "44f04ed9c126fbadbb83205ac4469200",
+                        "path": "shaderpacks/MakeUp-UltraFast-9.4b.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/MakeUp-UltraFast-9.4b.zip"
+                    }
+                },
+                {
+                    "id": "shaderpack-miniature-shader-2.18.9:shaders-v1",
+                    "name": "miniature-shader-2.18.9",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 43232,
+                        "MD5": "9753e0dadcc9ebe1723e4cad930ad7fb",
+                        "path": "shaderpacks/miniature-shader-2.18.9.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/miniature-shader-2.18.9.zip"
+                    }
                 }
             ]
         }
