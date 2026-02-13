@@ -13,18 +13,18 @@
         {
             "id": "fabric-1.21.1",
             "name": "Mythicmon 1.21.1",
-            "description": "Minecraft 1.21.1",
+            "description": "Minecraft 1.21.1 with Fabric Mod Loader for local gameplay",
             "icon": null,
             "version": "1.21.1",
-            "address": "169.155.126.40:9030",
+            "address": "localhost",
             "minecraftVersion": "1.21.1",
             "discord": {
-                "shortId": "Mythicmon",
-                "largeImageText": "mythicmon",
-                "largeImageKey": "mythicmon"
+                "shortId": "Fabric",
+                "largeImageText": "Playing Minecraft with Fabric",
+                "largeImageKey": "fabric-server"
             },
             "mainServer": true,
-            "autoconnect": true,
+            "autoconnect": false,
             "javaOptions": {
                 "supported": "21",
                 "suggestedMajor": 21
@@ -269,19 +269,6 @@
                     }
                 },
                 {
-                    "id": "gts:2.5.1",
-                    "name": "GTS",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 1386494,
-                        "MD5": "9d03e4d0a48f2fc309146bb73530e728",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Gts-2.5.1-fabric.jar"
-                    }
-                },
-                {
                     "id": "cobblemonextras:1.5.0",
                     "name": "Cobblemon Extras",
                     "type": "FabricMod",
@@ -422,19 +409,6 @@
                         "size": 1095802,
                         "MD5": "1f332447eadf66a07b33e641816fcd5e",
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/accessories-fabric-1.1.0-beta.53%2B1.21.1.jar"
-                    }
-                },
-                {
-                    "id": "architecture:1.0.0",
-                    "name": "Architecture",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 600915,
-                        "MD5": "702e92d09a4855c6c8aa9e738a48efa4",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Architecture.jar"
                     }
                 },
                 {
@@ -880,19 +854,6 @@
                     }
                 },
                 {
-                    "id": "lithium:1.0.0",
-                    "name": "Lithium",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 772848,
-                        "MD5": "80e7fc6c2cbeb0e097f8a25880ccd0a8",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Lithium.jar"
-                    }
-                },
-                {
                     "id": "mega_showdown:1.6.10+1.7.3+1.21.1",
                     "name": "mega showdown fabric 1.6.10+1.7.3+1.21.1",
                     "type": "FabricMod",
@@ -981,19 +942,6 @@
                         "size": 294707477,
                         "MD5": "aa1746c382e15d8ca45bbfb9f32c7a51",
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/reactivemusic-1.2.2%2B1.21.1.jar"
-                    }
-                },
-                {
-                    "id": "scalablelux:1.0.0",
-                    "name": "ScalableLux",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 177266,
-                        "MD5": "34cb60a3db0f2439db221bc3325c1411",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ScalableLux.jar"
                     }
                 },
                 {
@@ -1176,6 +1124,230 @@
                         "size": 2390310,
                         "MD5": "3c94d18556c41d7ac056effc3babaf15",
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/zamega-fabric-1.5.4.jar"
+                    }
+                },
+                {
+                    "id": "resourcepack-ccc_2.0:1.0.0",
+                    "name": "CCC 2.0",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 18378866,
+                        "MD5": "8fdc10afcb5d78cd8328e66a357e022c",
+                        "path": "resourcepacks/CCC_2.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/CCC_2.0.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblecafe.1.7:1.0.0",
+                    "name": "CobbleCafe.1.7",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1013127,
+                        "MD5": "4192f98a370da388d78a1cd2f357093b",
+                        "path": "resourcepacks/CobbleCafe.1.7.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/CobbleCafe.1.7.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemon.classic.grass.pack.v1.0.mc1.21.1:1.0.0",
+                    "name": "Cobblemon.Classic.Grass.Pack.v1.0.MC1.21.1",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 7538,
+                        "MD5": "b3e28f8fb151f09ca368e66960758b4d",
+                        "path": "resourcepacks/Cobblemon.Classic.Grass.Pack.v1.0.MC1.21.1.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Cobblemon.Classic.Grass.Pack.v1.0.MC1.21.1.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemon.classic.grass.pack.v2.1.mc1.21.1:1.0.0",
+                    "name": "Cobblemon.Classic.Grass.Pack.v2.1.MC1.21.1",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 7418,
+                        "MD5": "e30036a0e8d49439568cfea37d9d9521",
+                        "path": "resourcepacks/Cobblemon.Classic.Grass.Pack.v2.1.MC1.21.1.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Cobblemon.Classic.Grass.Pack.v2.1.MC1.21.1.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemon.cosmetic.expansion:1.0.0",
+                    "name": "Cobblemon.Cosmetic.Expansion",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 255823,
+                        "MD5": "3ec5307fde4a87ec03e2316ecc118acd",
+                        "path": "resourcepacks/Cobblemon.Cosmetic.Expansion.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Cobblemon.Cosmetic.Expansion.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemon.interface.v1.6.0:1.0.0",
+                    "name": "Cobblemon.Interface.v1.6.0",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 14108266,
+                        "MD5": "03cacbf0b647173ae6707cc74c10866c",
+                        "path": "resourcepacks/Cobblemon.Interface.v1.6.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Cobblemon.Interface.v1.6.0.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemon.journey.mounts.datapack:1.0.0",
+                    "name": "Cobblemon.Journey.Mounts.Datapack",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 85235,
+                        "MD5": "a27c5cd78f43c8dd9c66d02af2bd0a6f",
+                        "path": "resourcepacks/Cobblemon.Journey.Mounts.Datapack.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Cobblemon.Journey.Mounts.Datapack.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemonadvancementplaques-.1.0.2:1.0.0",
+                    "name": "CobblemonAdvancementPlaques .1.0.2",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 22064,
+                        "MD5": "af53297c1dda941b40bead2974e6a001",
+                        "path": "resourcepacks/CobblemonAdvancementPlaques-.1.0.2.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/CobblemonAdvancementPlaques-.1.0.2.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobbleranked_musics:1.0.0",
+                    "name": "cobbleranked musics",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 47773869,
+                        "MD5": "91e868680739be6d6d30f9cec2e7bdb6",
+                        "path": "resourcepacks/cobbleranked_musics.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/cobbleranked_musics.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobbleutils_rp:1.0.0",
+                    "name": "CobbleUtils RP",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 29910,
+                        "MD5": "6b1f84611d20a250c930a825c8a9efe7",
+                        "path": "resourcepacks/CobbleUtils_RP.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/CobbleUtils_RP.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-dcim.1.0.4:1.0.0",
+                    "name": "dCIM.1.0.4",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 12841360,
+                        "MD5": "353294c92921958608799cb1243abe5a",
+                        "path": "resourcepacks/dCIM.1.0.4.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/dCIM.1.0.4.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-extra.move.anims.1.7v1.0.2:1.0.0",
+                    "name": "Extra.Move.Anims.1.7v1.0.2",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 472495,
+                        "MD5": "7e6636662d1357874fafbfdf029cd4fa",
+                        "path": "resourcepacks/Extra.Move.Anims.1.7v1.0.2.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Extra.Move.Anims.1.7v1.0.2.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-failskins.7.12:1.0.0",
+                    "name": "Failskins.7.12",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 5149495,
+                        "MD5": "dcaa01c237d1eb823ddd7b8e2578f319",
+                        "path": "resourcepacks/Failskins.7.12.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Failskins.7.12.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-jor.scobbelemonmuiscpack2.0:1.0.0",
+                    "name": "jor.sCobbelemonMuiscPack2.0",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 314177677,
+                        "MD5": "1ecfbd61c23464220363555245e51aec",
+                        "path": "resourcepacks/jor.sCobbelemonMuiscPack2.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/jor.sCobbelemonMuiscPack2.0.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-missingmon_v3.6.1.floral.awakening:1.0.0",
+                    "name": "MissingMon v3.6.1.Floral.Awakening",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1271067,
+                        "MD5": "243289039b74db3e9ccecd3a1c5a9e61",
+                        "path": "resourcepacks/MissingMon_v3.6.1.Floral.Awakening.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/MissingMon_v3.6.1.Floral.Awakening.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-syn_eevees_0.1.0:1.0.0",
+                    "name": "Syn Eevees 0.1.0",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 207910,
+                        "MD5": "57f17435ac34ee516e097b065bcfe12d",
+                        "path": "resourcepacks/Syn_Eevees_0.1.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Syn_Eevees_0.1.0.zip"
                     }
                 }
             ]
