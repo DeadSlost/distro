@@ -165,19 +165,6 @@
                     }
                 },
                 {
-                    "id": "lithium:0.15.1+mc1.21.1",
-                    "name": "Lithium",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 772848,
-                        "MD5": "80e7fc6c2cbeb0e097f8a25880ccd0a8",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/lithium-fabric-0.15.1+mc1.21.1.jar"
-                    }
-                },
-                {
                     "id": "modmenu:11.0.3",
                     "name": "Mod Menu",
                     "type": "FabricMod",
