@@ -16,7 +16,7 @@
             "description": "Minecraft 1.21.1 with Fabric Mod Loader for local gameplay",
             "icon": null,
             "version": "1.21.1",
-            "address": "169.155.126.40:9030",
+            "address": "localhost",
             "minecraftVersion": "1.21.1",
             "discord": {
                 "shortId": "Fabric",
@@ -135,7 +135,7 @@
                     "artifact": {
                         "size": 2425441,
                         "MD5": "54d845f0ec97490a5e1b0dc4201d7c01",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/fabric-api-0.116.8+1.21.1.jar"
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/fabric-api-0.116.8%2B1.21.1.jar"
                     }
                 },
                 {
@@ -148,7 +148,7 @@
                     "artifact": {
                         "size": 135801550,
                         "MD5": "1de64f280372ec94e4376976fb579d52",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Cobblemon-fabric-1.7.3+1.21.1.jar"
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Cobblemon-fabric-1.7.3%2B1.21.1.jar"
                     }
                 },
                 {
@@ -161,7 +161,7 @@
                     "artifact": {
                         "size": 1297761,
                         "MD5": "aa37ba0048a1af6b554b137088cad484",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/sodium-fabric-0.6.13+mc1.21.1.jar"
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/sodium-fabric-0.6.13%2Bmc1.21.1.jar"
                     }
                 },
                 {
@@ -226,7 +226,7 @@
                     "artifact": {
                         "size": 177266,
                         "MD5": "34cb60a3db0f2439db221bc3325c1411",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ScalableLux-0.1.0.1+fabric.d0d58ab-all.jar"
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ScalableLux-0.1.0.1%2Bfabric.d0d58ab-all.jar"
                     }
                 },
                 {
@@ -239,7 +239,7 @@
                     "artifact": {
                         "size": 1705944,
                         "MD5": "abb2034b3f2d9c59819249458eb1c0f3",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/polymer-bundled-0.9.19+1.21.1.jar"
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/polymer-bundled-0.9.19%2B1.21.1.jar"
                     }
                 },
                 {
@@ -252,7 +252,7 @@
                     "artifact": {
                         "size": 232325,
                         "MD5": "4de8568a088a276c94168514d625413d",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/placeholder-api-2.4.2+1.21.jar"
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/placeholder-api-2.4.2%2B1.21.jar"
                     }
                 },
                 {
@@ -282,45 +282,6 @@
                     }
                 },
                 {
-                    "id": "cobblemonboss:2.0.0",
-                    "name": "Cobblemon Boss",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 355380,
-                        "MD5": "0f7b9c3abf93c911b9a2326c10f94353",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemonboss-2.0.0-fabric.jar"
-                    }
-                },
-                {
-                    "id": "cobblemon-utility:1.7.2",
-                    "name": "Cobblemon Utility+",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 137633,
-                        "MD5": "1c72f5f864de9bef9bfec32f86cc5bf7",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Cobblemon-Utility+-fabric-1.7.2.jar"
-                    }
-                },
-                {
-                    "id": "cobblemon-wonder-trade:1.1.0",
-                    "name": "Cobblemon Wonder Trade",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 2326051,
-                        "MD5": "f7463f4b32f08540c757b2d1ab7efcdf",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon_wonder_trade-fabric-1.1.0.jar"
-                    }
-                },
-                {
                     "id": "cobblehunts:1.1.1",
                     "name": "Cobblehunts",
                     "type": "FabricMod",
@@ -334,19 +295,6 @@
                     }
                 },
                 {
-                    "id": "daycareplus:1.3.3+1.21.1",
-                    "name": "Daycare Plus",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 558458,
-                        "MD5": "3e5bfde108b678a62f2b401691776d2e",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/daycareplus-1.3.3+1.21.1.jar"
-                    }
-                },
-                {
                     "id": "recallbeams:0.1.0",
                     "name": "RecallBeams",
                     "type": "FabricMod",
@@ -357,19 +305,6 @@
                         "size": 18255,
                         "MD5": "d76237c07bc0d275f0b7574b75056fe9",
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/RecallBeams-0.1.0-onecolor.jar"
-                    }
-                },
-                {
-                    "id": "spawnnotification:1.7.3-2.3.0",
-                    "name": "Spawn Notification",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 244216,
-                        "MD5": "01573aa2cfa4be9a99bf55e57584c0c7",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/spawnnotification-fabric-1.7.3-2.3.0.jar"
                     }
                 },
                 {
