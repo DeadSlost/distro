@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "discord": {
         "clientId": "1469694256359673918",
         "smallImageText": "mythicmon",
@@ -16,7 +16,7 @@
             "description": "Minecraft 1.21.1 with Fabric Mod Loader for local gameplay",
             "icon": null,
             "version": "1.21.1",
-            "address": "localhost",
+            "address": "mc.mythicmon.net",
             "minecraftVersion": "1.21.1",
             "discord": {
                 "shortId": "Fabric",
@@ -24,7 +24,7 @@
                 "largeImageKey": "fabric-server"
             },
             "mainServer": true,
-            "autoconnect": false,
+            "autoconnect": true,
             "javaOptions": {
                 "supported": "21",
                 "suggestedMajor": 21
@@ -1023,16 +1023,16 @@
                     }
                 },
                 {
-                    "id": "yet_another_config_lib_v3-3.8.0+1.21.1-fabric",
-                    "name": "Yet Another Config Lib",
+                    "id": "yet_another_config_lib_v3:3.8.2+1.21.1-fabric",
+                    "name": "yet another config lib v3 3.8.2+1.21.1 fabric",
                     "type": "FabricMod",
                     "required": {
                         "value": true
                     },
                     "artifact": {
-                        "size": 1129925,
-                        "MD5": "33ba57e008c25f099914f1003163d3e3",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/yet_another_config_lib_v3-3.8.0%2B1.21.1-fabric.jar"
+                        "size": 1131265,
+                        "MD5": "aadf11f5a793296be7c195e1ca388492",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar"
                     }
                 },
                 {
@@ -1371,7 +1371,7 @@
                     }
                 },
                 {
-                    "id": "easy_npc:easy_npc:6.1.1",
+                    "id": "easy_npc-fabric-1.21.1-6.1.1",
                     "name": "easy_npc fabric 1.21.1 6.1.1",
                     "type": "FabricMod",
                     "required": {
@@ -1384,7 +1384,7 @@
                     }
                 },
                 {
-                    "id": "easy_npc:bundle:6.1.0",
+                    "id": "easy_npc_bundle-6.1.0-fabric-1.21.1",
                     "name": "easy_npc_bundle 6.1.0 fabric 1.21.1",
                     "type": "FabricMod",
                     "required": {
@@ -1397,7 +1397,7 @@
                     }
                 },
                 {
-                    "id": "easy_npc:config_ui:6.1.0",
+                    "id": "easy_npc_config_ui-fabric-1.21.1-6.1.0",
                     "name": "easy_npc_config_ui fabric 1.21.1 6.1.0",
                     "type": "FabricMod",
                     "required": {
@@ -1407,58 +1407,6 @@
                         "size": 645796,
                         "MD5": "40cc1fc57de4d20c231617175aa1da1e",
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/easy_npc_config_ui-fabric-1.21.1-6.1.0.jar"
-                    }
-                },
-                {
-                    "id": "cobblemon_battle_tower-fabric-1.8.13",
-                    "name": "Cobblemon Battle Tower",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 825876,
-                        "MD5": "15b6791cae6ca203fe5ba501ce640f0f",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon_battle_tower-fabric-1.8.13.jar"
-                    }
-                },
-                {
-                    "id": "cobblemonresearchtasks-2.0",
-                    "name": "Cobblemon Research Tasks",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 1345922,
-                        "MD5": "6d8af9e9063af4ed631992dce6b38dbb",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemonresearchtasks-2.0.jar"
-                    }
-                },
-                {
-                    "id": "minopp-1.4.0+1.21.1+fabric",
-                    "name": "Minopp",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 261050,
-                        "MD5": "18251f05a9f6af0330f280b9de9d2ef2",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/minopp-1.4.0%2B1.21.1%2Bfabric.jar"
-                    }
-                },
-                {
-                    "id": "rctapi-fabric-1.21.1-0.14.6-beta",
-                    "name": "RCTAPI",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 221587,
-                        "MD5": "6541700ca0fa26922e3d1aad2efca865",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/rctapi-fabric-1.21.1-0.14.6-beta.jar"
                     }
                 }
             ]
