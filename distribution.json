@@ -1,5 +1,5 @@
 {
-    "version": "1.0.4",
+    "version": "1.0.6",
     "discord": {
         "clientId": "1469694256359673918",
         "smallImageText": "mythicmon",
@@ -1485,6 +1485,71 @@
                         "size": 1129925,
                         "MD5": "33ba57e008c25f099914f1003163d3e3",
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/yet_another_config_lib_v3-3.8.0%2B1.21.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "creativecore:fabric-mc1.21.1:2.13.29",
+                    "name": "CreativeCore fabric mc1.21.1 2.13.29",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1247898,
+                        "MD5": "89cdd2305a5e942e3abe47dc3a4a60e4",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CreativeCore_FABRIC_v2.13.29_mc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "waterframes:fabric-mc1.21.1:2.1.22",
+                    "name": "waterframes fabric mc1.21.1 2.1.22",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 266292,
+                        "MD5": "5277bc31004b1b93289857fe80f8f553",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/waterframes-FABRIC-mc1.21.1-v2.1.22.jar"
+                    }
+                },
+                {
+                    "id": "watermedia_youtube_plugin:2.1.2",
+                    "name": "watermedia youtube plugin 2.1.2",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 3830072,
+                        "MD5": "5b0ed7502f1d3c0553e6d536d5a74d4a",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/watermedia_youtube_plugin-2.1.2.jar"
+                    }
+                },
+                {
+                    "id": "watermedia:2.1.37",
+                    "name": "watermedia 2.1.37",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 37046674,
+                        "MD5": "4a09ad3ea22ad258802605b8aa929bbd",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/watermedia-2.1.37.jar"
+                    }
+                },
+                {
+                    "id": "watervision:fb-mc1.21.1:0.1.0-alpha",
+                    "name": "watervision fb mc1.21.1 0.1.0-alpha",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 82210,
+                        "MD5": "83bb7201ca88556eedee1f66cf15ce99",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/watervision-FB-mc1.21.1-v0.1.0-alpha.jar"
                     }
                 },
                 {
