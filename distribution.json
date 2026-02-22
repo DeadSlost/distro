@@ -1371,7 +1371,7 @@
                     }
                 },
                 {
-                    "id": "easy_npc-fabric-1.21.1-6.1.1",
+                    "id": "easy_npc:fabric-1.21.1:6.1.1",
                     "name": "easy_npc fabric 1.21.1 6.1.1",
                     "type": "FabricMod",
                     "required": {
@@ -1384,7 +1384,7 @@
                     }
                 },
                 {
-                    "id": "easy_npc_bundle-6.1.0-fabric-1.21.1",
+                    "id": "easy_npc_bundle:fabric-1.21.1:6.1.0",
                     "name": "easy_npc_bundle 6.1.0 fabric 1.21.1",
                     "type": "FabricMod",
                     "required": {
@@ -1397,7 +1397,7 @@
                     }
                 },
                 {
-                    "id": "easy_npc_config_ui-fabric-1.21.1-6.1.0",
+                    "id": "easy_npc_config_ui:fabric-1.21.1:6.1.0",
                     "name": "easy_npc_config_ui fabric 1.21.1 6.1.0",
                     "type": "FabricMod",
                     "required": {
