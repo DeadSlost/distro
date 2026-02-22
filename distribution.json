@@ -1,5 +1,5 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "discord": {
         "clientId": "1469694256359673918",
         "smallImageText": "mythicmon",
@@ -1368,6 +1368,123 @@
                         "MD5": "9753e0dadcc9ebe1723e4cad930ad7fb",
                         "path": "shaderpacks/miniature-shader-2.18.9.zip",
                         "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/miniature-shader-2.18.9.zip"
+                    }
+                },
+                {
+                    "id": "architecture:1.0.0",
+                    "name": "Architecture",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 600915,
+                        "MD5": "702e92d09a4855c6c8aa9e738a48efa4",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Architecture.jar"
+                    }
+                },
+                {
+                    "id": "cobblemonresearchtasks:2.0",
+                    "name": "cobblemonresearchtasks 2.0",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1345922,
+                        "MD5": "6d8af9e9063af4ed631992dce6b38dbb",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemonresearchtasks-2.0.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon_battle_tower:fabric:1.8.13",
+                    "name": "cobblemon battle tower fabric 1.8.13",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 825876,
+                        "MD5": "15b6791cae6ca203fe5ba501ce640f0f",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon_battle_tower-fabric-1.8.13.jar"
+                    }
+                },
+                {
+                    "id": "gts:2.5.1:fabric",
+                    "name": "Gts 2.5.1 fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1386494,
+                        "MD5": "9d03e4d0a48f2fc309146bb73530e728",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Gts-2.5.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "lithium:1.0.0",
+                    "name": "Lithium",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 772848,
+                        "MD5": "80e7fc6c2cbeb0e097f8a25880ccd0a8",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Lithium.jar"
+                    }
+                },
+                {
+                    "id": "minopp:1.4.0+1.21.1+fabric",
+                    "name": "minopp 1.4.0+1.21.1+fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 261050,
+                        "MD5": "18251f05a9f6af0330f280b9de9d2ef2",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/minopp-1.4.0%2B1.21.1%2Bfabric.jar"
+                    }
+                },
+                {
+                    "id": "rctapi:fabric-1.21.1-0.14.6:beta",
+                    "name": "rctapi fabric 1.21.1 0.14.6 beta",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 221587,
+                        "MD5": "6541700ca0fa26922e3d1aad2efca865",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/rctapi-fabric-1.21.1-0.14.6-beta.jar"
+                    }
+                },
+                {
+                    "id": "scalablelux:1.0.0",
+                    "name": "ScalableLux",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 177266,
+                        "MD5": "34cb60a3db0f2439db221bc3325c1411",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ScalableLux.jar"
+                    }
+                },
+                {
+                    "id": "yet_another_config_lib_v3:3.8.0+1.21.1:fabric",
+                    "name": "yet another config lib v3 3.8.0+1.21.1 fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1129925,
+                        "MD5": "33ba57e008c25f099914f1003163d3e3",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/yet_another_config_lib_v3-3.8.0%2B1.21.1-fabric.jar"
                     }
                 },
                 {
