@@ -1,5 +1,5 @@
 {
-    "version": "1.0.6",
+    "version": "1.0.8",
     "discord": {
         "clientId": "1469694256359673918",
         "smallImageText": "mythicmon",
@@ -9,6 +9,7 @@
         "oracle": "https://www.oracle.com/java/technologies/downloads/#java21"
     },
     "rss": null,
+    "announcementsApi": "https://www.mythicmon.net/index.php?route=/api/v2/announcements",
     "servers": [
         {
             "id": "fabric-1.21.1",
@@ -1589,6 +1590,97 @@
                         "size": 645796,
                         "MD5": "40cc1fc57de4d20c231617175aa1da1e",
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/easy_npc_config_ui-fabric-1.21.1-6.1.0.jar"
+                    }
+                },
+                {
+                    "id": "connectivity:fabric-1.21:7.6",
+                    "name": "connectivity fabric 1.21 7.6",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 198109,
+                        "MD5": "cdbe7094219a5f013d9e7c241ab64497",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/connectivity-fabric-1.21-7.6.jar"
+                    }
+                },
+                {
+                    "id": "debugify:1.21.1+1.0",
+                    "name": "Debugify 1.21.1+1.0",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 292202,
+                        "MD5": "604cf2f99be0b208a3354783f5b56fa2",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Debugify-1.21.1+1.0.jar"
+                    }
+                },
+                {
+                    "id": "dynamic:fps-3.11.4+minecraft-1.21.0:fabric",
+                    "name": "dynamic fps 3.11.4+minecraft 1.21.0 fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 217532,
+                        "MD5": "aa6037fac4244ba15a7ea67adc335eff",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/dynamic-fps-3.11.4+minecraft-1.21.0-fabric.jar"
+                    }
+                },
+                {
+                    "id": "entityculling:fabric-1.9.5:mc1.21.1",
+                    "name": "entityculling fabric 1.9.5 mc1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1560675,
+                        "MD5": "fa490d1bdbb00c612dead5ab52b0b323",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/entityculling-fabric-1.9.5-mc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "immediatelyfast:Fabric:1.6.10+1.21.1",
+                    "name": "ImmediatelyFast Fabric 1.6.10+1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 342770,
+                        "MD5": "15a2eafb373bf55d7db6b45971110825",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ImmediatelyFast-Fabric-1.6.10+1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "modernfix:fabric:5.25.1+mc1.21.1",
+                    "name": "modernfix fabric 5.25.1+mc1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 471258,
+                        "MD5": "17260c894041b7b4a1b1f2fd1a8f1a8b",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/modernfix-fabric-5.25.1+mc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "packetfixer:3.3.1-1.20.5-1.21.X:merged",
+                    "name": "packetfixer 3.3.1 1.20.5 1.21.X merged",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 46623,
+                        "MD5": "8f22fb065079340a72ae5ce0da12efcb",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar"
                     }
                 }
             ]
