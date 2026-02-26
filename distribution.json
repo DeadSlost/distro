@@ -1,5 +1,5 @@
 {
-    "version": "1.0.8",
+    "version": "1.0.9",
     "discord": {
         "clientId": "1469694256359673918",
         "smallImageText": "mythicmon",
@@ -1681,6 +1681,19 @@
                         "size": 46623,
                         "MD5": "8f22fb065079340a72ae5ce0da12efcb",
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar"
+                    }
+                },
+                {
+                    "id": "cupboard:fabric-1.21:2.9",
+                    "name": "cupboard fabric 1.21 2.9",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 23781,
+                        "MD5": "a94bfab1f1eff3cc9e7493f3aa8d2dbb",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cupboard-fabric-1.21-2.9.jar"
                     }
                 }
             ]
