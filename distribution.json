@@ -1893,7 +1893,7 @@
                     "required": { "value": true },
                     "artifact": {
                         "size": 217129,
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/skinrestorer-2.5.0+1.21-fabric.jar"
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/skinrestorer-2.5.0%2B1.21-fabric.jar"
                     }
                 },
                 {
@@ -1964,6 +1964,16 @@
                     "artifact": {
                         "size": 728221,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/entity_texture_features_1.21-fabric-7.0.9.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon_utility_plus:1.7.3",
+                    "name": "Cobblemon Utility+",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 159987,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Cobblemon-Utility%2B-fabric-1.7.3.jar"
                     }
                 }
             ]
