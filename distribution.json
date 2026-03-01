@@ -504,6 +504,17 @@
                     }
                 },
                 {
+                    "id": "cobblemon_utility_plus:1.7.3",
+                    "name": "Cobblemon Utility+",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "5ceb3f9ccd71ba1f22fb8c871e6ee023",
+                        "size": 159987,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Cobblemon-Utility%2B-fabric-1.7.3.jar"
+                    }
+                },
+                {
                     "id": "cobblemonpatches:1.0.0",
                     "name": "CobblemonPatches",
                     "type": "FabricMod",
@@ -1702,6 +1713,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "58bb9a7002854648258f11cc742b666b",
                         "size": 276975,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/aps_trophies-1.21.1-fabric-1.1.1.jar"
                     }
@@ -1712,6 +1724,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "36dac909cd30be08b93f30c3e61c9730",
                         "size": 3506642,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/ball-stickers-1.3.1.jar"
                     }
@@ -1722,6 +1735,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "e3df241d4c9c68cc2a478364a86b3bbb",
                         "size": 175500,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/catchrate-display-fabric-2.7.8.jar"
                     }
@@ -1732,6 +1746,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "c98271e7ba961e78e4a589fc53fa71a2",
                         "size": 15016830,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/chipped-fabric-1.21.1-4.0.2.jar"
                     }
@@ -1742,6 +1757,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "1291e8adfe7c2248881326961874a5b5",
                         "size": 613541,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobbledgacha-fabric-1.21.1-2.1.1.jar"
                     }
@@ -1752,6 +1768,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "80a0682c9f198b76593d8bb447ac396c",
                         "size": 608108,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon_party_extras-fabric-1.6.11.jar"
                     }
@@ -1762,6 +1779,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "c93b20280aefffd669bf61ad870244ac",
                         "size": 94750,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon_quests-reloaded-.1.21.1.-fabric-1.3.2.jar"
                     }
@@ -1772,6 +1790,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "2a4ad4c0c2574a53780070c65f8fbd50",
                         "size": 7368421,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon-journey-mounts-1.7.2.jar"
                     }
@@ -1782,6 +1801,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "7523f6fa00fb8d211db30a11b9edbfd7",
                         "size": 1406127,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/ftb-library-fabric-2101.1.30.jar"
                     }
@@ -1792,6 +1812,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "043a0509755e32862a112f5ccb0608ee",
                         "size": 1450852,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/ftb-quests-fabric-2101.1.22.jar"
                     }
@@ -1802,6 +1823,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "ba6a6acb1e068f5fa535e79971961dda",
                         "size": 287518,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/ftb-teams-fabric-2101.1.9.jar"
                     }
@@ -1812,6 +1834,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "dcedb9014b228c01941b2ef4f2743f19",
                         "size": 2365335,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/fzzy_config-0.7.6+1.21.jar"
                     }
@@ -1822,6 +1845,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "642a6f183b26722f6d8bcbb5d549b0ee",
                         "size": 14683519,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/LegendaryMonuments-7.8.jar"
                     }
@@ -1832,6 +1856,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "6cde3d3ad93370d46cb82823ec24ca82",
                         "size": 1012972,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/lootr-fabric-1.21.1-1.11.36.116.jar"
                     }
@@ -1842,6 +1867,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "1219b17e1585b84f6dc68dab63172a4e",
                         "size": 138115,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/MoreCobblemonTweaks-fabric-1.3.3.jar"
                     }
@@ -1852,6 +1878,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "f2fcd38f93c89cdcf9f74a0c13bebd75",
                         "size": 714379,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/punchy-2.3-fabric-1.21.1.jar"
                     }
@@ -1862,6 +1889,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "ee16debee22befe59a841deb64b7880e",
                         "size": 4724328,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/rctmod-fabric-1.21.1-0.17.6-beta.jar"
                     }
@@ -1872,6 +1900,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "89dac4248b76747800fbc00fa063825e",
                         "size": 485586,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/resourcefullib-fabric-1.21-3.0.12.jar"
                     }
@@ -1882,6 +1911,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "680c38905cf28ed4a39a15107a6a2fc9",
                         "size": 6280443,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/rustlingspots-1.8.jar"
                     }
@@ -1892,6 +1922,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "7e7aa3ad58b5af5ed0d09701d994e660",
                         "size": 217129,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/skinrestorer-2.5.0%2B1.21-fabric.jar"
                     }
@@ -1902,6 +1933,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "3edb443491052698aad38c572f15a2fb",
                         "size": 3191888,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/SubtleEffects-fabric-1.21.1-1.13.2-hotfix.1.jar"
                     }
@@ -1912,6 +1944,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "c82218938313a31a2e7d55028fe97e3a",
                         "size": 337990,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/TerraBlender-fabric-1.21.1-4.1.0.8.jar"
                     }
@@ -1922,6 +1955,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "492430f451d89f7fe2d7b8410c9748ac",
                         "size": 12432,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/tooltipfix-1.1.1-1.20.jar"
                     }
@@ -1932,6 +1966,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "5f371e509e0e81c2aee02293f06ebb30",
                         "size": 271324,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/wanteditems-1.1.9+1.7.3.jar"
                     }
@@ -1942,6 +1977,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "068aace7ea97d0a511ce4e13599c7c79",
                         "size": 863362,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/emotecraft-for-MC1.21.1-2.4.12-fabric.jar"
                     }
@@ -1952,6 +1988,7 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "7df5c5b02d42cb912c7a00ca082d44f7",
                         "size": 496342,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/entity_model_features_1.21-fabric-3.0.12.jar"
                     }
@@ -1962,20 +1999,12 @@
                     "type": "FabricMod",
                     "required": { "value": true },
                     "artifact": {
+                        "MD5": "b27806497a95ab84201d2bdd17619c34",
                         "size": 728221,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/entity_texture_features_1.21-fabric-7.0.9.jar"
                     }
-                },
-                {
-                    "id": "cobblemon_utility_plus:1.7.3",
-                    "name": "Cobblemon Utility+",
-                    "type": "FabricMod",
-                    "required": { "value": true },
-                    "artifact": {
-                        "size": 159987,
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Cobblemon-Utility%2B-fabric-1.7.3.jar"
-                    }
                 }
+                
             ]
         }
     ]
