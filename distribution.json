@@ -2169,6 +2169,28 @@
                         "size": 728221,
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/entity_texture_features_1.21-fabric-7.0.9.jar"
                     }
+                },
+                {
+                    "id": "cobblemon_additions:4.2.1",
+                    "name": "Cobblemon Additions",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "554923c0ac4dc22b59d0b135d4d5f4fb",
+                        "size": 3635188,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon-additions-4.2.1.jar"
+                    }
+                },
+                {
+                    "id": "quests_cobb:1.2.1",
+                    "name": "Quests Cobb",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "5f57f8750d5b0cd5b7b0a767bf6835aa",
+                        "size": 277594,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/quests-cobb-1.2.1.jar"
+                    }
                 }
                 
             ]
