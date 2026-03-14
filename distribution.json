@@ -1,0 +1,2253 @@
+{
+    "version": "1.0.9",
+    "discord": {
+        "clientId": "1469694256359673918",
+        "smallImageText": "mythicmon",
+        "smallImageKey": "mythicmon"
+    },
+    "java": {
+        "oracle": "https://www.oracle.com/java/technologies/downloads/#java21"
+    },
+    "rss": null,
+    "announcementsApi": "https://www.mythicmon.net/index.php?route=/api/v2/announcements",
+    "servers": [
+        {
+            "id": "fabric-1.21.1",
+            "name": "Mythicmon 1.21.1",
+            "description": "Minecraft 1.21.1 with Fabric Mod Loader for local gameplay",
+            "icon": null,
+            "version": "1.21.1",
+            "address": "mc.mythicmon.net",
+            "minecraftVersion": "1.21.1",
+            "discord": {
+                "shortId": "Fabric",
+                "largeImageText": "Playing Minecraft with Fabric",
+                "largeImageKey": "fabric-server"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "javaOptions": {
+                "supported": "21",
+                "suggestedMajor": 21
+            },
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.18.2",
+                    "name": "Fabric (fabric-loader)",
+                    "type": "Fabric",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1944281,
+                        "MD5": "d841cf4350d061f67d7fecd5075b99c0",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.2/fabric-loader-0.18.2.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "1.21.1-fabric-0.18.2",
+                            "name": "Fabric (version.json)",
+                            "type": "VersionManifest",
+                            "artifact": {
+                                "size": 2847,
+                                "MD5": "894b6c8dbbb424ccd56a864396727250",
+                                "url": "https://raw.githubusercontent.com/DeadSlost/distro/main/fabric-version.json"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm:9.9",
+                            "name": "ASM",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 126122,
+                                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm/9.9/asm-9.9.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-analysis:9.9",
+                            "name": "ASM Analysis",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 35149,
+                                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-commons:9.9",
+                            "name": "ASM Commons",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 74348,
+                                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-tree:9.9",
+                            "name": "ASM Tree",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 51947,
+                                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-util:9.9",
+                            "name": "ASM Util",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 94565,
+                                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+                            }
+                        },
+                        {
+                            "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+                            "name": "Sponge Mixin",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1504519,
+                                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+                            }
+                        },
+                        {
+                            "id": "net.fabricmc:intermediary:1.21.1",
+                            "name": "Intermediary",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 657725,
+                                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "fabric-api:0.116.9+1.21.1",
+                    "name": "Fabric API",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 2425600,
+                        "MD5": "b7ce8a460c6c9d4538536730864dd818",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/fabric-api-0.116.9+1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon:1.7.3+1.21.1",
+                    "name": "Cobblemon",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 135801550,
+                        "MD5": "1de64f280372ec94e4376976fb579d52",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Cobblemon-fabric-1.7.3%2B1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "sodium:0.6.13+mc1.21.1",
+                    "name": "Sodium",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1297761,
+                        "MD5": "aa37ba0048a1af6b554b137088cad484",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/sodium-fabric-0.6.13%2Bmc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "modmenu:11.0.3",
+                    "name": "Mod Menu",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 973066,
+                        "MD5": "d9a3c1f26c571e3eb07ef2ed3e89d1b0",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/modmenu-11.0.3.jar"
+                    }
+                },
+                {
+                    "id": "cloth-config:15.0.140",
+                    "name": "Cloth Config",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1157166,
+                        "MD5": "a2c091b027ad6ba8e54b07020fd45884",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cloth-config-15.0.140-fabric.jar"
+                    }
+                },
+                {
+                    "id": "ferritecore:7.0.3",
+                    "name": "FerriteCore",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 123450,
+                        "MD5": "b8513c8c3eef01ea1117ed8d8cba060d",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ferritecore-7.0.3-fabric.jar"
+                    }
+                },
+                {
+                    "id": "scalablelux:0.1.0.1",
+                    "name": "ScalableLux",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 177266,
+                        "MD5": "34cb60a3db0f2439db221bc3325c1411",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ScalableLux-0.1.0.1%2Bfabric.d0d58ab-all.jar"
+                    }
+                },
+                {
+                    "id": "polymer:0.9.19+1.21.1",
+                    "name": "Polymer",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1705944,
+                        "MD5": "abb2034b3f2d9c59819249458eb1c0f3",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/polymer-bundled-0.9.19%2B1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "placeholder-api:2.4.2+1.21",
+                    "name": "Placeholder API",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 232325,
+                        "MD5": "4de8568a088a276c94168514d625413d",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/placeholder-api-2.4.2%2B1.21.jar"
+                    }
+                },
+                {
+                    "id": "cardinal-components-api:6.1.3",
+                    "name": "Cardinal Components API",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 229645,
+                        "MD5": "8febe13b1c2df1e90a6fa8b5de8521a4",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cardinal-components-api-6.1.3.jar"
+                    }
+                },
+                {
+                    "id": "cobblemonextras:1.5.0",
+                    "name": "Cobblemon Extras",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 5036503,
+                        "MD5": "d059171878afdf74184017312ec3a1d7",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CobblemonExtras-fabric-1.5.0.jar"
+                    }
+                },
+                {
+                    "id": "cobblehunts:1.1.1",
+                    "name": "Cobblehunts",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 355535,
+                        "MD5": "6ec5579926ff5e117a56155aaef5af0d",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblehunts-1.1.1.jar"
+                    }
+                },
+                {
+                    "id": "recallbeams:0.1.0",
+                    "name": "RecallBeams",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 18255,
+                        "MD5": "d76237c07bc0d275f0b7574b75056fe9",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/RecallBeams-0.1.0-onecolor.jar"
+                    }
+                },
+                {
+                    "id": "timcore:1.7.3-1.31.0",
+                    "name": "TimCore",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 297587,
+                        "MD5": "58daa4a59a02d8e94578828744cbbdc7",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/timcore-fabric-1.7.3-1.31.0.jar"
+                    }
+                },
+                {
+                    "id": "ultraeconomy:1.0",
+                    "name": "Ultra Economy",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 127778,
+                        "MD5": "c4bc8fd215bf3f6cb39de64fcaf18ee4",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ultraeconomy-1.0-SNAPSHOT.jar"
+                    }
+                },
+                {
+                    "id": "accessories:1.1.0-beta.53+1.21.1",
+                    "name": "accessories fabric 1.1.0 beta.53+1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1095802,
+                        "MD5": "1f332447eadf66a07b33e641816fcd5e",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/accessories-fabric-1.1.0-beta.53%2B1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "architectury:13.0.8-fabric",
+                    "name": "architectury 13.0.8 fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 600915,
+                        "MD5": "702e92d09a4855c6c8aa9e738a48efa4",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/architectury-13.0.8-fabric.jar"
+                    }
+                },
+                {
+                    "id": "athena:1.21-4.0.2",
+                    "name": "athena fabric 1.21 4.0.2",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 82788,
+                        "MD5": "15aefefa313da7447f53b2276e0d0645",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/athena-fabric-1.21-4.0.2.jar"
+                    }
+                },
+                {
+                    "id": "badgebox:1.3.0",
+                    "name": "badgebox fabric 1.3.0",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 74534,
+                        "MD5": "f737bd99a2464c2ec693f5517c90b50a",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/badgebox-fabric-1.3.0.jar"
+                    }
+                },
+                {
+                    "id": "cobblebosses:1.0.0",
+                    "name": "CobbleBosses",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 45113,
+                        "MD5": "8f62561168fc06267af3980d3ffc0f82",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CobbleBosses.jar"
+                    }
+                },
+                {
+                    "id": "cobblecalendar:1.0.0",
+                    "name": "CobbleCalendar",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 48691,
+                        "MD5": "861680f483d982e9014ee79495ee7e1f",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CobbleCalendar.jar"
+                    }
+                },
+                {
+                    "id": "cobbledaycare:1.0.0",
+                    "name": "CobbleDaycare",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 210579,
+                        "MD5": "0a1e51bce43a1c16f8a94e28a9e93bad",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CobbleDaycare.jar"
+                    }
+                },
+                {
+                    "id": "cobblefurnies:1.0",
+                    "name": "CobbleFurnies fabric 1.0",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 2319618,
+                        "MD5": "a194d0647f3ed6a8deab689f4e933d48",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CobbleFurnies-fabric-1.0.jar"
+                    }
+                },
+                {
+                    "id": "cobblegts:1.0.0",
+                    "name": "CobbleGTS",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1386494,
+                        "MD5": "9d03e4d0a48f2fc309146bb73530e728",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CobbleGTS.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon-armors:1.6.0+1.7.3",
+                    "name": "cobblemon armors 1.6.0+1.7.3",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 17527670,
+                        "MD5": "3bad7f3be3b47531defac9b1490233d8",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon-armors-1.6.0%2B1.7.3.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon-battle-extras:1.10.34",
+                    "name": "cobblemon battle extras fabric 1.10.34",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1021322,
+                        "MD5": "2efd421864e46c8fd26cb71ae4bce0f7",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon-battle-extras-fabric-1.10.34.jar"
+                    }
+                },
+                {
+                    "id": "cobblemonalphas:1.4.1",
+                    "name": "cobblemonalphas 1.4.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 510732,
+                        "MD5": "070a810976147453fb9eb57d1facd811",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemonalphas-1.4.1.jar"
+                    }
+                },
+                {
+                    "id": "cobblemonarmory:1.4.4-fabric-1.21.1",
+                    "name": "cobblemonarmory 1.4.4 fabric 1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 513795,
+                        "MD5": "73e93bb95de5cc9694d1700551f00812",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemonarmory-1.4.4-fabric-1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "cobblemonintegrations:1.21.1-1.1.6",
+                    "name": "cobblemonintegrations fabric 1.21.1 1.1.6",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 373321,
+                        "MD5": "90e5df694ce88be4c0d95673a71b2036",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemonintegrations-fabric-1.21.1-1.1.6.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon_utility_plus:1.7.3",
+                    "name": "Cobblemon Utility+",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "5ceb3f9ccd71ba1f22fb8c871e6ee023",
+                        "size": 159987,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Cobblemon-Utility%2B-fabric-1.7.3.jar"
+                    }
+                },
+                {
+                    "id": "cobblemonpatches:1.0.0",
+                    "name": "CobblemonPatches",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 860779,
+                        "MD5": "4466220f5f7001a0cfa125e1e061ad9c",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CobblemonPatches.jar"
+                    }
+                },
+                {
+                    "id": "cobblemonraiddens:0.9.0+1.21.1",
+                    "name": "cobblemonraiddens fabric 0.9.0+1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 2559691,
+                        "MD5": "02aeeeeb288822e384c2b0cbd22452bf",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemonraiddens-fabric-0.9.0+1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "cobblemonsizevariationfabric:1.4.0+1.7.0",
+                    "name": "CobblemonSizeVariationFabric 1.4.0+1.7.0",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 97158,
+                        "MD5": "3f5c98d3a10f501cee9fc0f4921fe594",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CobblemonSizeVariationFabric-1.4.0%2B1.7.0.jar"
+                    }
+                },
+                {
+                    "id": "cobblenav:2.2.5",
+                    "name": "cobblenav fabric 2.2.5",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 780131,
+                        "MD5": "f6f1a2fbba01767ec6eb235cc1334650",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblenav-fabric-2.2.5.jar"
+                    }
+                },
+                {
+                    "id": "cobblenotify:1.0.0",
+                    "name": "CobbleNotify",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 87922,
+                        "MD5": "59b489bcdb71c34bc60b677a46824ad3",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CobbleNotify.jar"
+                    }
+                },
+                {
+                    "id": "cobbleutils:1.21.1-fabric-1.1.4.1-fbaa5dc",
+                    "name": "CobbleUtils 1.21.1 fabric 1.1.4.1 fbaa5dc",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 564308,
+                        "MD5": "6bab83060ec638a7c87f15186ba3924e",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CobbleUtils-1.21.1-fabric-1.1.4.1-fbaa5dc.jar"
+                    }
+                },
+                {
+                    "id": "cobblewondertrade:1.0.0",
+                    "name": "CobbleWonderTrade",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 67930,
+                        "MD5": "15e1ce56e821eb23f067d55b83b9fad3",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CobbleWonderTrade.jar"
+                    }
+                },
+                {
+                    "id": "cutthrough-v:21.1.0-1.21.1-Fabric",
+                    "name": "CutThrough v21.1.0 1.21.1 Fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 51389,
+                        "MD5": "4396ddea2cd7c5ed902685c0db610f8c",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CutThrough-v21.1.0-1.21.1-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "dynamicsurroundings:1.21.1-0.4.2",
+                    "name": "dynamicsurroundings fabric 1.21.1 0.4.2",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 16849254,
+                        "MD5": "c0dbe9c0d4c420bf951f3bad068112d3",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/dynamicsurroundings-fabric-1.21.1-0.4.2.jar"
+                    }
+                },
+                {
+                    "id": "everlastingutils:1.1.5",
+                    "name": "everlastingutils 1.1.5",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1201446,
+                        "MD5": "f01a3eeab0fed2228fbb26418e4a686f",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/everlastingutils-1.1.5.jar"
+                    }
+                },
+                {
+                    "id": "fabric-language-kotlin:1.13.9+kotlin.2.3.10",
+                    "name": "fabric language kotlin 1.13.9+kotlin.2.3.10",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 7642216,
+                        "MD5": "5a82c29fbbfdd3acbb9da9229ae0e32d",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/fabric-language-kotlin-1.13.9%2Bkotlin.2.3.10.jar"
+                    }
+                },
+                {
+                    "id": "fightfirst:1.2.0",
+                    "name": "FightFirst fabric 1.2.0",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 15481,
+                        "MD5": "b9a1ce5bb5448ddebc43d9ce697f5706",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/FightFirst-fabric-1.2.0.jar"
+                    }
+                },
+                {
+                    "id": "fightorflight:0.10.7",
+                    "name": "fightorflight fabric 0.10.7",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1411065,
+                        "MD5": "e6c7ba8f1b6a4f609797b2bd504828c8",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/fightorflight-fabric-0.10.7.jar"
+                    }
+                },
+                {
+                    "id": "forgeconfigapiport-v:21.1.6-1.21.1-Fabric",
+                    "name": "ForgeConfigAPIPort v21.1.6 1.21.1 Fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 633065,
+                        "MD5": "eba1a7f9d9976e983a2b9eb5e915e087",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "geckolib:1.21.1-4.8.4",
+                    "name": "geckolib fabric 1.21.1 4.8.4",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 653722,
+                        "MD5": "0044e7b8b4d4096257031692f5995a2c",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/geckolib-fabric-1.21.1-4.8.4.jar"
+                    }
+                },
+                {
+                    "id": "gooeylibs-fabric:1.0.0",
+                    "name": "GooeyLibs Fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 325862,
+                        "MD5": "59dd5aab6095793531ffca44cc04226d",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/GooeyLibs-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "hunt:1.0.0",
+                    "name": "Hunt",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 402988,
+                        "MD5": "11daca7aed95565f29ff760e8bfb1404",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Hunt.jar"
+                    }
+                },
+                {
+                    "id": "iris:1.8.8+mc1.21.1",
+                    "name": "iris fabric 1.8.8+mc1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 2690177,
+                        "MD5": "1179fe09b9ba970e84ed59259adfe65a",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/iris-fabric-1.8.8%2Bmc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "jei:1.21.1-fabric-19.27.0.336",
+                    "name": "jei 1.21.1 fabric 19.27.0.336",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1561528,
+                        "MD5": "b4988fdc0d53bc418d6285e4b3d4bf16",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/jei-1.21.1-fabric-19.27.0.336.jar"
+                    }
+                },
+                {
+                    "id": "krypton:1.0.0",
+                    "name": "Krypton",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 161045,
+                        "MD5": "9ba3d734dac0e59deb4721f2f23c65ad",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Krypton.jar"
+                    }
+                },
+                {
+                    "id": "lithium:0.15.3+mc1.21.1",
+                    "name": "lithium fabric 0.15.3+mc1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 797398,
+                        "MD5": "469d5a220904850809f35f92f53854f1",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/lithium-fabric-0.15.3+mc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "mega_showdown:1.7.1+1.7.3+1.21.1",
+                    "name": "mega showdown fabric 1.7.1+1.7.3+1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 16258470,
+                        "MD5": "bc1bd9002ad5401af3ca3a5f38b8ef99",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/mega_showdown-fabric-1.7.1+1.7.3+1.21.1-hotfix.jar"
+                    }
+                },
+                {
+                    "id": "owo-lib:0.12.15.4+1.21",
+                    "name": "owo lib 0.12.15.4+1.21",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1183559,
+                        "MD5": "3627aee17111e12a8c66928f5d7a3fba",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/owo-lib-0.12.15.4%2B1.21.jar"
+                    }
+                },
+                {
+                    "id": "pickaxeminigame:1.8.1",
+                    "name": "pickaxeminigame 1.8.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 3348612,
+                        "MD5": "8d6321ea7e20f1303035e5a47ac6fa1a",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/pickaxeminigame-1.8.1.jar"
+                    }
+                },
+                {
+                    "id": "player-animation-lib:2.0.4+1.21.1",
+                    "name": "player animation lib fabric 2.0.4+1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 204541,
+                        "MD5": "93e684b0c741294dc2ac7e6b1f958dd2",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/player-animation-lib-fabric-2.0.4%2B1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "pokeblocks:1.4.0-1.21.1",
+                    "name": "pokeblocks 1.4.0 1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1606467,
+                        "MD5": "a576344a9af471b67b47437adcdd2a63",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/pokeblocks-1.4.0-1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "puzzleslib-v:21.1.39-1.21.1-Fabric",
+                    "name": "PuzzlesLib v21.1.39 1.21.1 Fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1129192,
+                        "MD5": "d1d6f7b512ef45941bf70ef36600a04d",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/PuzzlesLib-v21.1.39-1.21.1-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "reactivemusic:1.2.2+1.21.1",
+                    "name": "reactivemusic 1.2.2+1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 294707477,
+                        "MD5": "aa1746c382e15d8ca45bbfb9f32c7a51",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/reactivemusic-1.2.2%2B1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "seriousplayeranimations:1.2.0",
+                    "name": "seriousplayeranimations 1.2.0",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 159577,
+                        "MD5": "fb664f339a6b1939da93bb3088767000",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/seriousplayeranimations-1.2.0.jar"
+                    }
+                },
+                {
+                    "id": "shiny-boosters:1.6.0+1.21.1",
+                    "name": "shiny boosters 1.6.0+1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 20468,
+                        "MD5": "f44c9bfc986b229f153dc87678940eb9",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/shiny-boosters-1.6.0%2B1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "shouldersurfing:1.21.1-4.22.1",
+                    "name": "ShoulderSurfing Fabric 1.21.1 4.22.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 270800,
+                        "MD5": "809371886150317e906f711a619f9756",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ShoulderSurfing-Fabric-1.21.1-4.22.1.jar"
+                    }
+                },
+                {
+                    "id": "simpledexrewards:1.1.8",
+                    "name": "SimpleDexRewards 1.1.8",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 46102,
+                        "MD5": "b8bd81c57429c3aa51cdf456cce69c6f",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/SimpleDexRewards-1.1.8.jar"
+                    }
+                },
+                {
+                    "id": "simpletms:2.3.3",
+                    "name": "SimpleTMs fabric 2.3.3",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 821382,
+                        "MD5": "9a9d474ca102e1d04fa89926fa837896",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/SimpleTMs-fabric-2.3.3.jar"
+                    }
+                },
+                {
+                    "id": "terralith:1.0.0",
+                    "name": "Terralith",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 3115385,
+                        "MD5": "93dd6c7f8824e531fedaf37fd23f5c99",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Terralith.jar"
+                    }
+                },
+                {
+                    "id": "travelersbackpack:1.21.1-10.1.33",
+                    "name": "travelersbackpack fabric 1.21.1 10.1.33",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1441066,
+                        "MD5": "2e57ea3073ad9d96419ff76733860e61",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/travelersbackpack-fabric-1.21.1-10.1.33.jar"
+                    }
+                },
+                {
+                    "id": "ultraeconomy:1.0.0",
+                    "name": "UltraEconomy",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 2552873,
+                        "MD5": "ea5b31635945aa3ac4d5e7efe16ba0e5",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/UltraEconomy.jar"
+                    }
+                },
+                {
+                    "id": "ultrasts:1.0.0",
+                    "name": "UltraSTS",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 35776,
+                        "MD5": "91206afb9a867f137de35469805b7092",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/UltraSTS.jar"
+                    }
+                },
+                {
+                    "id": "voicechat:1.21.1-2.6.12",
+                    "name": "voicechat fabric 1.21.1 2.6.12",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 5341263,
+                        "MD5": "59b4135850402bde197adabd78fe85d6",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/voicechat-fabric-1.21.1-2.6.12.jar"
+                    }
+                },
+                {
+                    "id": "waveycapes:1.8.2-mc1.21.1",
+                    "name": "waveycapes fabric 1.8.2 mc1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1831739,
+                        "MD5": "2c7d580f6de72cfd1b43cc194a379d7f",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/waveycapes-fabric-1.8.2-mc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "xaerominimap:1.21.1-25.3.10",
+                    "name": "xaerominimap fabric 1.21.1 25.3.10",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 2177333,
+                        "MD5": "0ae4f63c97b972ef3fdcd918c924feb5",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/xaerominimap-fabric-1.21.1-25.3.10.jar"
+                    }
+                },
+                {
+                    "id": "yet_another_config_lib_v3:3.8.2+1.21.1-fabric",
+                    "name": "yet another config lib v3 3.8.2+1.21.1 fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1131265,
+                        "MD5": "aadf11f5a793296be7c195e1ca388492",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "zamega:1.6.1",
+                    "name": "zamega fabric 1.6.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 2338855,
+                        "MD5": "d04a4dfa8ae463b02139ad171bdcbd9a",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/zamega-fabric-1.6.1.jar"
+                    }
+                },
+                {
+                    "id": "resourcepack-ccc_2.0:1.0.0",
+                    "name": "CCC 2.0",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 18378866,
+                        "MD5": "8fdc10afcb5d78cd8328e66a357e022c",
+                        "path": "resourcepacks/CCC_2.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/CCC_2.0.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblecafe.1.7:1.0.0",
+                    "name": "CobbleCafe.1.7",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1013127,
+                        "MD5": "4192f98a370da388d78a1cd2f357093b",
+                        "path": "resourcepacks/CobbleCafe.1.7.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/CobbleCafe.1.7.zip"
+                    }
+                },
+                
+                {
+                    "id": "resourcepack-cobblemon.classic.grass.pack.v2.1.mc1.21.1:1.0.0",
+                    "name": "Cobblemon.Classic.Grass.Pack.v2.1.MC1.21.1",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 7418,
+                        "MD5": "e30036a0e8d49439568cfea37d9d9521",
+                        "path": "resourcepacks/Cobblemon.Classic.Grass.Pack.v2.1.MC1.21.1.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Cobblemon.Classic.Grass.Pack.v2.1.MC1.21.1.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemon.cosmetic.expansion:1.0.0",
+                    "name": "Cobblemon.Cosmetic.Expansion",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 255823,
+                        "MD5": "3ec5307fde4a87ec03e2316ecc118acd",
+                        "path": "resourcepacks/Cobblemon.Cosmetic.Expansion.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Cobblemon.Cosmetic.Expansion.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemon.interface.v1.6.0:1.0.0",
+                    "name": "Cobblemon.Interface.v1.6.0",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 14108266,
+                        "MD5": "03cacbf0b647173ae6707cc74c10866c",
+                        "path": "resourcepacks/Cobblemon.Interface.v1.6.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Cobblemon.Interface.v1.6.0.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemon.journey.mounts.datapack:1.0.0",
+                    "name": "Cobblemon.Journey.Mounts.Datapack",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 85235,
+                        "MD5": "a27c5cd78f43c8dd9c66d02af2bd0a6f",
+                        "path": "resourcepacks/Cobblemon.Journey.Mounts.Datapack.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Cobblemon.Journey.Mounts.Datapack.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemonadvancementplaques-.1.0.2:1.0.0",
+                    "name": "CobblemonAdvancementPlaques .1.0.2",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 22064,
+                        "MD5": "af53297c1dda941b40bead2974e6a001",
+                        "path": "resourcepacks/CobblemonAdvancementPlaques-.1.0.2.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/CobblemonAdvancementPlaques-.1.0.2.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobbleranked_musics:1.0.0",
+                    "name": "cobbleranked musics",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 47773869,
+                        "MD5": "91e868680739be6d6d30f9cec2e7bdb6",
+                        "path": "resourcepacks/cobbleranked_musics.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/cobbleranked_musics.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobbleutils_rp:1.0.0",
+                    "name": "CobbleUtils RP",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 29910,
+                        "MD5": "6b1f84611d20a250c930a825c8a9efe7",
+                        "path": "resourcepacks/CobbleUtils_RP.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/CobbleUtils_RP.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-dcim.1.0.4:1.0.0",
+                    "name": "dCIM.1.0.4",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 12841360,
+                        "MD5": "353294c92921958608799cb1243abe5a",
+                        "path": "resourcepacks/dCIM.1.0.4.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/dCIM.1.0.4.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-extra.move.anims.1.7v1.0.2:1.0.0",
+                    "name": "Extra.Move.Anims.1.7v1.0.2",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 472495,
+                        "MD5": "7e6636662d1357874fafbfdf029cd4fa",
+                        "path": "resourcepacks/Extra.Move.Anims.1.7v1.0.2.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Extra.Move.Anims.1.7v1.0.2.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-failskins.7.12:1.0.0",
+                    "name": "Failskins.7.12",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 5149495,
+                        "MD5": "dcaa01c237d1eb823ddd7b8e2578f319",
+                        "path": "resourcepacks/Failskins.7.12.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Failskins.7.12.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-jor.scobbelemonmuiscpack2.0:1.0.0",
+                    "name": "jor.sCobbelemonMuiscPack2.0",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 314177677,
+                        "MD5": "1ecfbd61c23464220363555245e51aec",
+                        "path": "resourcepacks/jor.sCobbelemonMuiscPack2.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/jor.sCobbelemonMuiscPack2.0.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-missingmon_v3.6.1.floral.awakening:1.0.0",
+                    "name": "MissingMon v3.6.1.Floral.Awakening",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1271067,
+                        "MD5": "243289039b74db3e9ccecd3a1c5a9e61",
+                        "path": "resourcepacks/MissingMon_v3.6.1.Floral.Awakening.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/MissingMon_v3.6.1.Floral.Awakening.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-syn_eevees_0.1.0:1.0.0",
+                    "name": "Syn Eevees 0.1.0",
+                    "type": "file",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 207910,
+                        "MD5": "57f17435ac34ee516e097b065bcfe12d",
+                        "path": "resourcepacks/Syn_Eevees_0.1.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Syn_Eevees_0.1.0.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-1.21.2.fresh.moves.v3.1.with.animated.eyes:1.0.0",
+                    "name": "-1.21.2 Fresh Moves v3.1 (With Animated Eyes)",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 321871,
+                        "MD5": "9425263fea042911f13a1482f4c3f436",
+                        "path": "resourcepacks/-1.21.2.Fresh.Moves.v3.1.With.Animated.Eyes.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/-1.21.2.Fresh.Moves.v3.1.With.Animated.Eyes.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-allthemons.x.megashowdown.radiants.1.3:1.0.0",
+                    "name": "AllTheMons x MegaShowdown Radiants 1.3",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 2656976,
+                        "MD5": "9b6ae58a9457032ba8382fb2e4a1ee91",
+                        "path": "resourcepacks/AllTheMons.x.MegaShowdown.Radiants.1.3.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/AllTheMons.x.MegaShowdown.Radiants.1.3.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cheese-boxwallpapers:1.0.0",
+                    "name": "Cheese-BoxWallpapers",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 1400135,
+                        "MD5": "b753edaa4920c748a4b52c41fcc0c023",
+                        "path": "resourcepacks/Cheese-BoxWallpapers.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Cheese-BoxWallpapers.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemon.3d.poke.rods.1.0:1.0.0",
+                    "name": "Cobblemon 3D Poké Rods 1.0",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 167546,
+                        "MD5": "3f9942822210093cd9bed79ce3ae8a0c",
+                        "path": "resourcepacks/Cobblemon.3D.Poke.Rods.1.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Cobblemon.3D.Poke.Rods.1.0.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemon.gui.edition.black.white.v1.2:1.0.0",
+                    "name": "Cobblemon Gui Edition Black & White v1.2",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 5843501,
+                        "MD5": "79f1776a3869f9c297ccc1f489e5876f",
+                        "path": "resourcepacks/Cobblemon.Gui.Edition.Black.White.v1.2.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Cobblemon.Gui.Edition.Black.White.v1.2.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemon.gui.gamma.emerald.edition.v1.0:1.0.0",
+                    "name": "Cobblemon Gui Gamma Emerald Edition v1.0",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 210204,
+                        "MD5": "7ffe6d1b5a7cb97a1f5890675aaac10e",
+                        "path": "resourcepacks/Cobblemon.Gui.Gamma.Emerald.Edition.v1.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Cobblemon.Gui.Gamma.Emerald.Edition.v1.0.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemonmorecosmetics.release.v1.1.3-1.21.x:1.0.0",
+                    "name": "CobblemonMoreCosmetics Release v1.1.3-1.21.x",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 1298831,
+                        "MD5": "f5595f40831f8f772e0ebf7ab2e52681",
+                        "path": "resourcepacks/CobblemonMoreCosmetics.Release.v1.1.3-1.21.x.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/CobblemonMoreCosmetics.Release.v1.1.3-1.21.x.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-cobblemotion_v1.4.1:1.0.0",
+                    "name": "CobbleMotion_v1.4.1",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 1555782,
+                        "MD5": "9d19b0bf073dfd34fbaf9a8cae37bfdf",
+                        "path": "resourcepacks/CobbleMotion_v1.4.1.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/CobbleMotion_v1.4.1.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-eeveelutionsreimagined:1.0.0",
+                    "name": "EeveelutionsReimagined",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 315069,
+                        "MD5": "34452b9db50442807eb8e77cf3779d38",
+                        "path": "resourcepacks/EeveelutionsReimagined.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/EeveelutionsReimagined.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-failskins.8.1:1.0.0",
+                    "name": "Failskins 8.1",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 17688922,
+                        "MD5": "54e320215362b372f496943263a59634",
+                        "path": "resourcepacks/Failskins.8.1.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/Failskins.8.1.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-freshanimations_v1.10.4:1.0.0",
+                    "name": "FreshAnimations_v1.10.4",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 850941,
+                        "MD5": "ab0e8cc3444e98f0fd51ac0d84533d52",
+                        "path": "resourcepacks/FreshAnimations_v1.10.4.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/FreshAnimations_v1.10.4.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-pokopia-1.1:1.0.0",
+                    "name": "pokopia-1.1",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 109784,
+                        "MD5": "48fe99faddb456f60ebdece64fe17acc",
+                        "path": "resourcepacks/pokopia-1.1.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/pokopia-1.1.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-radical-red-raids-v4.0.0:1.0.0",
+                    "name": "radical-red-raids-v4.0.0",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 405804,
+                        "MD5": "f7eccd3b8fafc388bc306bf0ae1f63a9",
+                        "path": "resourcepacks/radical-red-raids-v4.0.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/radical-red-raids-v4.0.0.zip"
+                    }
+                },
+                {
+                    "id": "resourcepack-xaeroscobblemon-3.0.4_stars+1.7.0:1.0.0",
+                    "name": "XaerosCobblemon-3.0.4_stars+1.7.0",
+                    "type": "file",
+                    "required": { "value": true },
+                    "artifact": {
+                        "size": 2749422,
+                        "MD5": "6e87a515b89859303e1b0bf8332b698e",
+                        "path": "resourcepacks/XaerosCobblemon-3.0.4_stars+1.7.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/resource-v1/XaerosCobblemon-3.0.4_stars%2B1.7.0.zip"
+                    }
+                },
+                {
+                    "id": "shaderpack-AmethystShaders_2.4:shaders-v1",
+                    "name": "AmethystShaders 2.4",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 472309,
+                        "MD5": "1446323a6789099cb0cdc9dc0357436d",
+                        "path": "shaderpacks/AmethystShaders_2.4.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/AmethystShaders_2.4.zip"
+                    }
+                },
+                {
+                    "id": "shaderpack-BSL_v10.1.1:shaders-v1",
+                    "name": "BSL v10.1.1",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1125052,
+                        "MD5": "67b0a2d855e91f3578af7a4336e537f0",
+                        "path": "shaderpacks/BSL_v10.1.1.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/BSL_v10.1.1.zip"
+                    }
+                },
+                {
+                    "id": "shaderpack-ComplementaryReimagined_r5.7.1:shaders-v1",
+                    "name": "ComplementaryReimagined r5.7.1",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 522970,
+                        "MD5": "bc5f557bb6844d27e7b7891170544ea9",
+                        "path": "shaderpacks/ComplementaryReimagined_r5.7.1.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/ComplementaryReimagined_r5.7.1.zip"
+                    }
+                },
+                {
+                    "id": "shaderpack-ComplementaryUnbound_r5.7.1:shaders-v1",
+                    "name": "ComplementaryUnbound r5.7.1",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 522973,
+                        "MD5": "b535d194c7115b360860e226c65ae3f2",
+                        "path": "shaderpacks/ComplementaryUnbound_r5.7.1.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/ComplementaryUnbound_r5.7.1.zip"
+                    }
+                },
+                {
+                    "id": "shaderpack-I.Like.Vanilla.v1.3.0:shaders-v1",
+                    "name": "I.Like.Vanilla.v1.3.0",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 288445,
+                        "MD5": "e95d5bc565bb55b9fd9fee5fd1f40f92",
+                        "path": "shaderpacks/I.Like.Vanilla.v1.3.0.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/I.Like.Vanilla.v1.3.0.zip"
+                    }
+                },
+                {
+                    "id": "shaderpack-MakeUp-UltraFast-9.4b:shaders-v1",
+                    "name": "MakeUp-UltraFast-9.4b",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 402605,
+                        "MD5": "44f04ed9c126fbadbb83205ac4469200",
+                        "path": "shaderpacks/MakeUp-UltraFast-9.4b.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/MakeUp-UltraFast-9.4b.zip"
+                    }
+                },
+                {
+                    "id": "shaderpack-miniature-shader-2.18.9:shaders-v1",
+                    "name": "miniature-shader-2.18.9",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 43232,
+                        "MD5": "9753e0dadcc9ebe1723e4cad930ad7fb",
+                        "path": "shaderpacks/miniature-shader-2.18.9.zip",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/shaders-v1/miniature-shader-2.18.9.zip"
+                    }
+                },
+                {
+                    "id": "architecture:1.0.0",
+                    "name": "Architecture",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 600915,
+                        "MD5": "702e92d09a4855c6c8aa9e738a48efa4",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Architecture.jar"
+                    }
+                },
+                {
+                    "id": "cobblemonresearchtasks:2.0",
+                    "name": "cobblemonresearchtasks 2.0",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1345922,
+                        "MD5": "6d8af9e9063af4ed631992dce6b38dbb",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemonresearchtasks-2.0.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon_battle_tower:fabric:1.9.17",
+                    "name": "cobblemon battle tower fabric 1.9.17",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 52227092,
+                        "MD5": "c6663e0fe85f5c73d38d67bbd6c0e460",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon_battle_tower-fabric-1.9.17.jar"
+                    }
+                },
+                {
+                    "id": "gts:2.5.1:fabric",
+                    "name": "Gts 2.5.1 fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1386494,
+                        "MD5": "9d03e4d0a48f2fc309146bb73530e728",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Gts-2.5.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "lithium:1.0.0",
+                    "name": "Lithium",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 772848,
+                        "MD5": "80e7fc6c2cbeb0e097f8a25880ccd0a8",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Lithium.jar"
+                    }
+                },
+                {
+                    "id": "minopp:1.4.0+1.21.1+fabric",
+                    "name": "minopp 1.4.0+1.21.1+fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 261050,
+                        "MD5": "18251f05a9f6af0330f280b9de9d2ef2",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/minopp-1.4.0%2B1.21.1%2Bfabric.jar"
+                    }
+                },
+                {
+                    "id": "rctapi:fabric-1.21.1-0.14.8:beta",
+                    "name": "rctapi fabric 1.21.1 0.14.8 beta",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 229381,
+                        "MD5": "ccb680ea69ae5e167a920a4de47ef22d",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/rctapi-fabric-1.21.1-0.14.8-beta.jar"
+                    }
+                },
+                {
+                    "id": "scalablelux:1.0.0",
+                    "name": "ScalableLux",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 177266,
+                        "MD5": "34cb60a3db0f2439db221bc3325c1411",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ScalableLux.jar"
+                    }
+                },
+                {
+                    "id": "yet_another_config_lib_v3:3.8.0+1.21.1:fabric",
+                    "name": "yet another config lib v3 3.8.0+1.21.1 fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1129925,
+                        "MD5": "33ba57e008c25f099914f1003163d3e3",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/yet_another_config_lib_v3-3.8.0%2B1.21.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "creativecore:fabric-mc1.21.1:2.13.29",
+                    "name": "CreativeCore fabric mc1.21.1 2.13.29",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1247898,
+                        "MD5": "89cdd2305a5e942e3abe47dc3a4a60e4",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/CreativeCore_FABRIC_v2.13.29_mc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "waterframes:fabric-mc1.21.1:2.1.22",
+                    "name": "waterframes fabric mc1.21.1 2.1.22",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 266292,
+                        "MD5": "5277bc31004b1b93289857fe80f8f553",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/waterframes-FABRIC-mc1.21.1-v2.1.22.jar"
+                    }
+                },
+                {
+                    "id": "watermedia_youtube_plugin:2.1.2",
+                    "name": "watermedia youtube plugin 2.1.2",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 3830072,
+                        "MD5": "5b0ed7502f1d3c0553e6d536d5a74d4a",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/watermedia_youtube_plugin-2.1.2.jar"
+                    }
+                },
+                {
+                    "id": "watermedia:2.1.37",
+                    "name": "watermedia 2.1.37",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 37046674,
+                        "MD5": "4a09ad3ea22ad258802605b8aa929bbd",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/watermedia-2.1.37.jar"
+                    }
+                },
+                {
+                    "id": "watervision:fb-mc1.21.1:0.1.0-alpha",
+                    "name": "watervision fb mc1.21.1 0.1.0-alpha",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 82210,
+                        "MD5": "83bb7201ca88556eedee1f66cf15ce99",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/watervision-FB-mc1.21.1-v0.1.0-alpha.jar"
+                    }
+                },
+                {
+                    "id": "easy_npc:fabric-1.21.1:6.1.1",
+                    "name": "easy_npc fabric 1.21.1 6.1.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1555396,
+                        "MD5": "6cae8a2a3880f6396175d04c0cbaa2ae",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/easy_npc-fabric-1.21.1-6.1.1.jar"
+                    }
+                },
+                {
+                    "id": "easy_npc_bundle:fabric-1.21.1:6.1.0",
+                    "name": "easy_npc_bundle 6.1.0 fabric 1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1945262,
+                        "MD5": "a0436e443e5d1317054417019e79a997",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/easy_npc_bundle-6.1.0-fabric-1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "easy_npc_config_ui:fabric-1.21.1:6.1.0",
+                    "name": "easy_npc_config_ui fabric 1.21.1 6.1.0",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 645796,
+                        "MD5": "40cc1fc57de4d20c231617175aa1da1e",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/easy_npc_config_ui-fabric-1.21.1-6.1.0.jar"
+                    }
+                },
+                {
+                    "id": "connectivity:fabric-1.21:7.6",
+                    "name": "connectivity fabric 1.21 7.6",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 198109,
+                        "MD5": "cdbe7094219a5f013d9e7c241ab64497",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/connectivity-fabric-1.21-7.6.jar"
+                    }
+                },
+                {
+                    "id": "debugify:1.21.1+1.0",
+                    "name": "Debugify 1.21.1+1.0",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 292202,
+                        "MD5": "604cf2f99be0b208a3354783f5b56fa2",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Debugify-1.21.1+1.0.jar"
+                    }
+                },
+                {
+                    "id": "dynamic:fps-3.11.4+minecraft-1.21.0:fabric",
+                    "name": "dynamic fps 3.11.4+minecraft 1.21.0 fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 217532,
+                        "MD5": "aa6037fac4244ba15a7ea67adc335eff",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/dynamic-fps-3.11.4+minecraft-1.21.0-fabric.jar"
+                    }
+                },
+                {
+                    "id": "entityculling:fabric-1.9.5:mc1.21.1",
+                    "name": "entityculling fabric 1.9.5 mc1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1560675,
+                        "MD5": "fa490d1bdbb00c612dead5ab52b0b323",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/entityculling-fabric-1.9.5-mc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "immediatelyfast:Fabric:1.6.10+1.21.1",
+                    "name": "ImmediatelyFast Fabric 1.6.10+1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 342770,
+                        "MD5": "15a2eafb373bf55d7db6b45971110825",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ImmediatelyFast-Fabric-1.6.10+1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "modernfix:fabric:5.25.1+mc1.21.1",
+                    "name": "modernfix fabric 5.25.1+mc1.21.1",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 471258,
+                        "MD5": "17260c894041b7b4a1b1f2fd1a8f1a8b",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/modernfix-fabric-5.25.1+mc1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "packetfixer:3.3.1-1.20.5-1.21.X:merged",
+                    "name": "packetfixer 3.3.1 1.20.5 1.21.X merged",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 46623,
+                        "MD5": "8f22fb065079340a72ae5ce0da12efcb",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar"
+                    }
+                },
+                {
+                    "id": "cupboard:fabric-1.21:2.9",
+                    "name": "cupboard fabric 1.21 2.9",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 23781,
+                        "MD5": "a94bfab1f1eff3cc9e7493f3aa8d2dbb",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cupboard-fabric-1.21-2.9.jar"
+                    }
+                },
+                {
+                    "id": "aps_trophies:1.21.1-fabric-1.1.1",
+                    "name": "APS Trophies",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "58bb9a7002854648258f11cc742b666b",
+                        "size": 276975,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/aps_trophies-1.21.1-fabric-1.1.1.jar"
+                    }
+                },
+                {
+                    "id": "ball_stickers:1.3.1",
+                    "name": "Ball Stickers",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "36dac909cd30be08b93f30c3e61c9730",
+                        "size": 3506642,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ball-stickers-1.3.1.jar"
+                    }
+                },
+                {
+                    "id": "catchrate_display:2.8.3",
+                    "name": "Catchrate Display",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "e3fa279a54d9329a7f1f8754dbe8322a",
+                        "size": 197949,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/catchrate-display-fabric-2.8.3.jar"
+                    }
+                },
+                {
+                    "id": "chipped:1.21.1-4.0.2",
+                    "name": "Chipped",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "c98271e7ba961e78e4a589fc53fa71a2",
+                        "size": 15016830,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/chipped-fabric-1.21.1-4.0.2.jar"
+                    }
+                },
+                {
+                    "id": "cobbledgacha:1.21.1-3.0.2",
+                    "name": "Cobbled Gacha",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "5e91b8352965b35fa58f8b28d2c3d7d7",
+                        "size": 1092470,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobbledgacha-fabric-1.21.1-3.0.2.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon_party_extras:1.7.13",
+                    "name": "Cobblemon Party Extras",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "86cf84b973e2cd8943fc1321a6c54ce9",
+                        "size": 346070,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon_party_extras-fabric-1.7.13.jar"
+                    }
+                },
+                {
+                    "id": "cobblemonpokemonbadges:0.1.1",
+                    "name": "Cobblemon Pokemon Badges",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "477d57c21841b70f0ed7954530d8be0e",
+                        "size": 129759,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemonpokemonbadges-fabric-0.1.1.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon_quests_reloaded:1.3.4",
+                    "name": "Cobblemon Quests Reloaded",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "86cf84b973e2cd8943fc1321a6c54ce9",
+                        "size": 108208,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon_quests-reloaded-[1.21.1]-fabric-1.3.4.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon_journey_mounts:1.7.2",
+                    "name": "Cobblemon Journey Mounts",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "2a4ad4c0c2574a53780070c65f8fbd50",
+                        "size": 7368421,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon-journey-mounts-1.7.2.jar"
+                    }
+                },
+                {
+                    "id": "ftb_library:2101.1.31",
+                    "name": "FTB Library",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "f0cf3c851688dcd33aefefb117d10f9b",
+                        "size": 1406585,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ftb-library-fabric-2101.1.31.jar"
+                    }
+                },
+                {
+                    "id": "ftb_quests:2101.1.22",
+                    "name": "FTB Quests",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "043a0509755e32862a112f5ccb0608ee",
+                        "size": 1450852,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ftb-quests-fabric-2101.1.22.jar"
+                    }
+                },
+                {
+                    "id": "ftb_teams:2101.1.9",
+                    "name": "FTB Teams",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "ba6a6acb1e068f5fa535e79971961dda",
+                        "size": 287518,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/ftb-teams-fabric-2101.1.9.jar"
+                    }
+                },
+                {
+                    "id": "fzzy_config:0.7.6+1.21",
+                    "name": "Fzzy Config",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "dcedb9014b228c01941b2ef4f2743f19",
+                        "size": 2365335,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/fzzy_config-0.7.6+1.21.jar"
+                    }
+                },
+                {
+                    "id": "legendary_monuments:7.8",
+                    "name": "Legendary Monuments",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "642a6f183b26722f6d8bcbb5d549b0ee",
+                        "size": 14683519,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/LegendaryMonuments-7.8.jar"
+                    }
+                },
+                {
+                    "id": "lootr:1.21.1-1.11.36.116",
+                    "name": "Lootr",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "6cde3d3ad93370d46cb82823ec24ca82",
+                        "size": 1012972,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/lootr-fabric-1.21.1-1.11.36.116.jar"
+                    }
+                },
+                {
+                    "id": "more_cobblemon_tweaks:1.3.3",
+                    "name": "More Cobblemon Tweaks",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "1219b17e1585b84f6dc68dab63172a4e",
+                        "size": 138115,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/MoreCobblemonTweaks-fabric-1.3.3.jar"
+                    }
+                },
+                {
+                    "id": "punchy:2.3",
+                    "name": "Punchy",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "f2fcd38f93c89cdcf9f74a0c13bebd75",
+                        "size": 714379,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/punchy-2.3-fabric-1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "rctmod:1.21.1-0.17.6-beta",
+                    "name": "RCT Mod",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "ee16debee22befe59a841deb64b7880e",
+                        "size": 4724328,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/rctmod-fabric-1.21.1-0.17.6-beta.jar"
+                    }
+                },
+                {
+                    "id": "resourcefullib:1.21-3.0.12",
+                    "name": "Resourceful Lib",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "89dac4248b76747800fbc00fa063825e",
+                        "size": 485586,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/resourcefullib-fabric-1.21-3.0.12.jar"
+                    }
+                },
+                {
+                    "id": "rustlingspots:1.8",
+                    "name": "Rustling Spots",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "680c38905cf28ed4a39a15107a6a2fc9",
+                        "size": 6280443,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/rustlingspots-1.8.jar"
+                    }
+                },
+                {
+                    "id": "skinrestorer:2.6.0+1.21",
+                    "name": "Skin Restorer",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "2e1579783a4855326802b05b36eece9a",
+                        "size": 247036,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/skinrestorer-2.6.0%2B1.21-fabric.jar"
+                    }
+                },
+                {
+                    "id": "subtle_effects:1.21.1-1.13.2-hotfix.1",
+                    "name": "Subtle Effects",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "3edb443491052698aad38c572f15a2fb",
+                        "size": 3191888,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/SubtleEffects-fabric-1.21.1-1.13.2-hotfix.1.jar"
+                    }
+                },
+                {
+                    "id": "terrablender:1.21.1-4.1.0.8",
+                    "name": "TerraBlender",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "c82218938313a31a2e7d55028fe97e3a",
+                        "size": 337990,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/TerraBlender-fabric-1.21.1-4.1.0.8.jar"
+                    }
+                },
+                {
+                    "id": "tooltipfix:1.1.1-1.20",
+                    "name": "Tooltip Fix",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "492430f451d89f7fe2d7b8410c9748ac",
+                        "size": 12432,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/tooltipfix-1.1.1-1.20.jar"
+                    }
+                },
+                {
+                    "id": "wanteditems:1.1.9+1.7.3",
+                    "name": "Wanted Items",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "5f371e509e0e81c2aee02293f06ebb30",
+                        "size": 271324,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/wanteditems-1.1.9+1.7.3.jar"
+                    }
+                },
+                {
+                    "id": "emotecraft:2.4.12",
+                    "name": "Emotecraft",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "068aace7ea97d0a511ce4e13599c7c79",
+                        "size": 863362,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/emotecraft-for-MC1.21.1-2.4.12-fabric.jar"
+                    }
+                },
+                {
+                    "id": "entity_model_features:3.0.12",
+                    "name": "Entity Model Features",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "7df5c5b02d42cb912c7a00ca082d44f7",
+                        "size": 496342,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/entity_model_features_1.21-fabric-3.0.12.jar"
+                    }
+                },
+                {
+                    "id": "entity_texture_features:7.0.9",
+                    "name": "Entity Texture Features",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "b27806497a95ab84201d2bdd17619c34",
+                        "size": 728221,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/entity_texture_features_1.21-fabric-7.0.9.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon_additions:4.2.1",
+                    "name": "Cobblemon Additions",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "554923c0ac4dc22b59d0b135d4d5f4fb",
+                        "size": 3635188,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon-additions-4.2.1.jar"
+                    }
+                },
+                {
+                    "id": "quests_cobb:1.2.1",
+                    "name": "Quests Cobb",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "5f57f8750d5b0cd5b7b0a767bf6835aa",
+                        "size": 277594,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/quests-cobb-1.2.1.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon-expeditions:1.1.2",
+                    "name": "Cobblemon Expeditions",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "ebc2e9e95ec588383666b33a42deef85",
+                        "size": 564324,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon-expeditions-1.1.2.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon_spawn_alerts:1.13.2",
+                    "name": "Cobblemon Spawn Alerts",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "1e6901b3a92c0852bc267580c96e40ab",
+                        "size": 2946716,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon_spawn_alerts-fabric-1.13.2.jar"
+                    }
+                },
+                {
+                    "id": "emberstextapi:2.8.1",
+                    "name": "Embers Text API",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "c26cfd2ceec8af280e0dc8f65a870bb7",
+                        "size": 1045349,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/emberstextapi-fabric-1.21.1-2.8.1.jar"
+                    }
+                },
+                {
+                    "id": "justzoom:2.1.0",
+                    "name": "Just Zoom",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "ef6a7cf9d987e0a5adecc749bdea76a3",
+                        "size": 196476,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/justzoom_fabric_2.1.0_MC_1.21.1.jar"
+                    }
+                },
+                {
+                    "id": "konkrete:1.9.9",
+                    "name": "Konkrete",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "287ee9cfc6015f706672fd8c20f5ef9c",
+                        "size": 786695,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/konkrete_fabric_1.9.9_MC_1.21.jar"
+                    }
+                }
+            ]
+        }
+    ]
+}
