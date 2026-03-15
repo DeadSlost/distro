@@ -1642,19 +1642,6 @@
                     }
                 },
                 {
-                    "id": "yet_another_config_lib_v3:3.8.0+1.21.1:fabric",
-                    "name": "yet another config lib v3 3.8.0+1.21.1 fabric",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 1129925,
-                        "MD5": "33ba57e008c25f099914f1003163d3e3",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/yet_another_config_lib_v3-3.8.0%2B1.21.1-fabric.jar"
-                    }
-                },
-                {
                     "id": "creativecore:fabric-mc1.21.1:2.13.29",
                     "name": "CreativeCore fabric mc1.21.1 2.13.29",
                     "type": "FabricMod",
