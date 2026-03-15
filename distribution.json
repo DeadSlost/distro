@@ -1,5 +1,5 @@
 {
-    "version": "1.0.9",
+    "version": "1.0.10",
     "discord": {
         "clientId": "1469694256359673918",
         "smallImageText": "mythicmon",
@@ -1035,7 +1035,7 @@
                     }
                 },
                 {
-                    "id": "yet_another_config_lib_v3:3.8.2+1.21.1-fabric",
+                    "id": "yet_another_config_lib_v3:3.8.2+1.21.1:fabric",
                     "name": "yet another config lib v3 3.8.2+1.21.1 fabric",
                     "type": "FabricMod",
                     "required": {
