@@ -452,16 +452,42 @@
                     }
                 },
                 {
-                    "id": "cobblemon-battle-extras:1.10.34",
-                    "name": "cobblemon battle extras fabric 1.10.34",
+                    "id": "cobbled-armour-trims:3.0",
+                    "name": "cobbled armour trims 3.0",
                     "type": "FabricMod",
                     "required": {
                         "value": true
                     },
                     "artifact": {
-                        "size": 1021322,
-                        "MD5": "2efd421864e46c8fd26cb71ae4bce0f7",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon-battle-extras-fabric-1.10.34.jar"
+                        "size": 1275091,
+                        "MD5": "f35f5aef8f7e875228708580f0f96e19",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobbled-armour-trims-3.0.jar"
+                    }
+                },
+                {
+                    "id": "cobblemon-battle-extras:1.11.35",
+                    "name": "cobblemon battle extras fabric 1.11.35",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1181429,
+                        "MD5": "0818574a2d78d4583d7e6804c00f0b30",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon-battle-extras-fabric-1.11.35.jar"
+                    }
+                },
+                {
+                    "id": "wild_battle_api:fabric:1.1.2",
+                    "name": "wild battle api fabric 1.1.2",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 253029,
+                        "MD5": "aed18468d95d4a4e87c195748102583f",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/wild_battle_api-fabric-1.1.2.jar"
                     }
                 },
                 {
@@ -475,6 +501,19 @@
                         "size": 510732,
                         "MD5": "070a810976147453fb9eb57d1facd811",
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemonalphas-1.4.1.jar"
+                    }
+                },
+                {
+                    "id": "cobblemonboss:5.0.0:fabric",
+                    "name": "cobblemonboss 5.0.0 fabric",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 626845,
+                        "MD5": "6e968ac9f259345697560ae5cf2f605e",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemonboss-5.0.0-fabric.jar"
                     }
                 },
                 {
@@ -1564,16 +1603,16 @@
                     }
                 },
                 {
-                    "id": "cobblemon_battle_tower:fabric:1.9.17",
-                    "name": "cobblemon battle tower fabric 1.9.17",
+                    "id": "cobblemon_battle_tower:fabric:1.10.18",
+                    "name": "cobblemon battle tower fabric 1.10.18",
                     "type": "FabricMod",
                     "required": {
                         "value": true
                     },
                     "artifact": {
-                        "size": 52227092,
-                        "MD5": "c6663e0fe85f5c73d38d67bbd6c0e460",
-                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon_battle_tower-fabric-1.9.17.jar"
+                        "size": 52058351,
+                        "MD5": "3d63ccdb9acb756ff40e2d06ebfedb70",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/cobblemon_battle_tower-fabric-1.10.18.jar"
                     }
                 },
                 {
@@ -1610,9 +1649,22 @@
                         "value": true
                     },
                     "artifact": {
-                        "size": 261050,
-                        "MD5": "18251f05a9f6af0330f280b9de9d2ef2",
+                        "size": 260847,
+                        "MD5": "9dbc5ae37a0e1071fc5681b3d45f3cbf",
                         "url": "https://github.com/DeadSlost/distro/releases/download/v1/minopp-1.4.0%2B1.21.1%2Bfabric.jar"
+                    }
+                },
+                {
+                    "id": "ironchests:2.0.4",
+                    "name": "IronChests 2.0.4",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 582972,
+                        "MD5": "4328871de7270ee33091239b85a6ccd3",
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/IronChests-2.0.4.jar"
                     }
                 },
                 {
