@@ -2133,6 +2133,17 @@
                     }
                 },
                 {
+                    "id": "failskins:8.21",
+                    "name": "Failskins 8.21",
+                    "type": "FabricMod",
+                    "required": { "value": true },
+                    "artifact": {
+                        "MD5": "b81c5f283a8e1643dc1ffb8dc46b9d0e",
+                        "size": 19693201,
+                        "url": "https://github.com/DeadSlost/distro/releases/download/v1/Failskins.8.21.jar"
+                    }
+                },
+                {
                     "id": "subtle_effects:1.21.1-1.13.2-hotfix.1",
                     "name": "Subtle Effects",
                     "type": "FabricMod",
